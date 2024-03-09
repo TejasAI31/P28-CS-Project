@@ -138,6 +138,9 @@
     <ClCompile Include="Timings.cpp" />
     <ClCompile Include="Weekly_Quiz.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="conio.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
