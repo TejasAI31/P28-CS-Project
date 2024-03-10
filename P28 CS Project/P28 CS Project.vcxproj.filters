@@ -45,9 +45,15 @@
     <ClCompile Include="Hospital.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Cursorposition.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="conio.h">
+    <ClInclude Include="colors.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="altscreen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

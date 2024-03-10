@@ -130,6 +130,7 @@
     <ClCompile Include="Clubs.cpp" />
     <ClCompile Include="Complaints.cpp" />
     <ClCompile Include="Contacts.cpp" />
+    <ClCompile Include="Cursorposition.h" />
     <ClCompile Include="Hospital.cpp" />
     <ClCompile Include="MainUI.cpp" />
     <ClCompile Include="SWB.cpp" />
@@ -139,7 +140,8 @@
     <ClCompile Include="Weekly_Quiz.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="conio.h" />
+    <ClInclude Include="altscreen.h" />
+    <ClInclude Include="colors.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
