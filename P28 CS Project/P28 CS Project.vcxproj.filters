@@ -48,6 +48,9 @@
     <ClCompile Include="Cursorposition.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="includeheaders.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="colors.h">

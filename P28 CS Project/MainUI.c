@@ -1,29 +1,75 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "altscreen.h"
-#include "colors.h"
-#include "Cursorposition.h"
+#include "includeheaders.h"
+
+char choice, dateandmonth[11], day[4], currenttime[7],hours[4], minutes[4];
+
+
+//updates date and time
+void updatetime()
+{
+	time_t now = time(NULL);
+	char* time = ctime(&now);
+	strncpy(dateandmonth, time, 10);
+	dateandmonth[10] = 0;
+	strncpy(day, time, 3);
+	day[3] = 0;
+	for (int x = 11; x < 16; x++)
+		currenttime[x - 11] = time[x];
+	currenttime[6] = 0;
+	strncpy(hours, currenttime, 2);
+	hours[2] = 0;
+	for (int x = 3; x <= 4; x++)
+		minutes[x - 3] =currenttime[x];
+	minutes[2] = 0;
+}
+
+
 
 //shows the main hub
 void mainscreen()
 {
-	int n;
-	printf("%s					----------------------\n",blue);
-	printf("					|Welcome to IIT Patna|\n");
-	printf("					----------------------\n%s",white);
-	printf("%s\n\nWhat do you wish to do?\n%s",green,white);
-	printf("%s-----------------------\n%s",green,white);
-	scanf_s("%d", &n);
-	system("cls");
-	printf("\033[1;0");
-	printf("%s					----------------------\n", green);
-	printf("					|Welcome to IIT Patna|\n");
-	printf("					----------------------\n%s", white);
-	printf("%s\n\nWhat do you wish to do?\n%s", green, white);
-	printf("%s-----------------------\n%s", green, white);
-	printf("Successful");
-}
+	updatetime();
+	//mainscreen
+	printf("		%s---------------------------------\n", brightyellow);
+	printf("		!%sWELCOME TO THE IIT PATNA PORTAL%s!\n", brightblue, brightyellow);
+	printf("		---------------------------------\n%s", white);
+	printf("%s\n\nWhat do you wish to do?\n%s", brightred, white);
+	printf("----------------------\n%s", brightyellow);
+	printf("\n\n%sCatalogue:%s\n", cyan, white);
+	printf("%s-----------------------\n%s", magenta, white);
+	printf("%s1:%sTimetable%s\n", magenta, cyan, white);
+	printf("%s2:%sClubs%s\n", magenta, cyan, white);
+	printf("%s3:%sTimings%s\n", magenta, cyan, white);
+	printf("%s4:%sSWB%s\n", magenta, cyan, white);
+	printf("%s5:%sContacts%s\n", magenta, cyan, white);
+	printf("%s6:%sComplaints%s\n", magenta, cyan, white);
+	printf("%s7:%sWeekly Quiz%s\n", magenta, cyan, white);
+	printf("%s-----------------------\n\n%s%s", magenta, white, save);
 
+	//prints date
+	printf("\033[6;50H--%s%s%s--", brightgreen, dateandmonth, white);
+
+
+	//checks for valid input and turns red if wrong
+	int anger = 0;
+	do {
+		printf("%s\033[0K", reset);
+		if (anger == 0)
+			printf("%sEnter a valid choice(1-7):%s", brightgreen, white);
+		else
+			printf("%sEnter a valid choice(1-7):%s", brightred, white);
+		scanf_s("%c", &choice);
+		anger += 1;
+	} while (choice < 49 || choice>55);
+	
+	switch (choice)
+	{
+	case 51:
+		updatetime();
+		showtimings(day, currenttime, hours, minutes);
+		break;
+	}
+
+}
 
 
 int main(void)

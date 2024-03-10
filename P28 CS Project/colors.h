@@ -1,9 +1,16 @@
+//defines colors
+
+
 #define blue "\033[0;34m"
 #define green "\033[0;32m"
 #define yellow "\033[0;33m"
 #define magenta "\033[0;35m"
 #define white "\033[0;37m"
 #define cyan "\033[0;36m"
+#define brightred "\033[0;91m"
+#define brightgreen "\033[0;92m"
+#define brightblue "\033[0;94m"
+#define brightyellow "\033[0;93m"
 #define bluebkg "\033[1;44m"
 #define greenbkg "\033[1;42m"
 #define yellowbkg "\033[1;43m"
