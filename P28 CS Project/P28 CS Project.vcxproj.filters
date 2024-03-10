@@ -15,34 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="MainUI.cpp">
+    <ClCompile Include="MainUI.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Weekly_Quiz.cpp">
+    <ClCompile Include="Weekly_Quiz.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Complaints.cpp">
+    <ClCompile Include="Complaints.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Contacts.cpp">
+    <ClCompile Include="Contacts.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Clubs.cpp">
+    <ClCompile Include="Clubs.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Time_Table.cpp">
+    <ClCompile Include="Time_Table.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SWB.cpp">
+    <ClCompile Include="SWB.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Timings.cpp">
+    <ClCompile Include="Timings.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Tic_Tac_Toe.cpp">
+    <ClCompile Include="Tic_Tac_Toe.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Hospital.cpp">
+    <ClCompile Include="Hospital.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Cursorposition.h">

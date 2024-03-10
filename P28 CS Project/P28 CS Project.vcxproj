@@ -127,17 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Clubs.cpp" />
-    <ClCompile Include="Complaints.cpp" />
-    <ClCompile Include="Contacts.cpp" />
+    <ClCompile Include="Clubs.c" />
+    <ClCompile Include="Complaints.c" />
+    <ClCompile Include="Contacts.c" />
     <ClCompile Include="Cursorposition.h" />
-    <ClCompile Include="Hospital.cpp" />
-    <ClCompile Include="MainUI.cpp" />
-    <ClCompile Include="SWB.cpp" />
-    <ClCompile Include="Tic_Tac_Toe.cpp" />
-    <ClCompile Include="Time_Table.cpp" />
-    <ClCompile Include="Timings.cpp" />
-    <ClCompile Include="Weekly_Quiz.cpp" />
+    <ClCompile Include="Hospital.c" />
+    <ClCompile Include="MainUI.c" />
+    <ClCompile Include="SWB.c" />
+    <ClCompile Include="Tic_Tac_Toe.c" />
+    <ClCompile Include="Time_Table.c" />
+    <ClCompile Include="Timings.c" />
+    <ClCompile Include="Weekly_Quiz.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="altscreen.h" />
