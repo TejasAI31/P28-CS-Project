@@ -51,6 +51,9 @@
     <ClCompile Include="includeheaders.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Loadingscreen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="colors.h">

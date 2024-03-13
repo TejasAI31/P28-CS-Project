@@ -1,7 +1,7 @@
-#include "includeheaders.h"
+﻿#include "includeheaders.h"
 
 char choice, dateandmonth[11], day[4], currenttime[7],hours[4], minutes[4];
-
+int check;
 
 //updates date and time
 void updatetime()
@@ -32,8 +32,8 @@ void mainscreen()
 	printf("		%s---------------------------------\n", brightyellow);
 	printf("		!%sWELCOME TO THE IIT PATNA PORTAL%s!\n", brightblue, brightyellow);
 	printf("		---------------------------------\n%s", white);
-	printf("%s\n\nWhat do you wish to do?\n%s", brightred, white);
-	printf("----------------------\n%s", brightyellow);
+	printf("\n\nWhat do you wish to do?\n");
+	printf("%s----------------------\n%s", brightyellow,white);
 	printf("\n\n%sCatalogue:%s\n", cyan, white);
 	printf("%s-----------------------\n%s", magenta, white);
 	printf("%s1:%sTimetable%s\n", magenta, cyan, white);
@@ -43,6 +43,7 @@ void mainscreen()
 	printf("%s5:%sContacts%s\n", magenta, cyan, white);
 	printf("%s6:%sComplaints%s\n", magenta, cyan, white);
 	printf("%s7:%sWeekly Quiz%s\n", magenta, cyan, white);
+	printf("%s8:%sTic Tac Toe%s\n", magenta, cyan, white);
 	printf("%s-----------------------\n\n%s%s", magenta, white, save);
 
 	//prints date
@@ -54,21 +55,25 @@ void mainscreen()
 	do {
 		printf("%s\033[0K", reset);
 		if (anger == 0)
-			printf("%sEnter a valid choice(1-7):%s", brightgreen, white);
+			printf("%sEnter a valid choice(1-8):%s", brightgreen, white);
 		else
-			printf("%sEnter a valid choice(1-7):%s", brightred, white);
+			printf("%sEnter a valid choice(1-8):%s", brightred, white);
 		scanf_s("%c", &choice);
 		anger += 1;
-	} while (choice < 49 || choice>55);
+	} while (choice < 49 || choice>56);
 	
 	switch (choice)
 	{
 	case 51:
+		loadingscreen(minutes);
 		updatetime();
 		showtimings(day, currenttime, hours, minutes);
 		break;
+	case 56:
+		loadingscreen(minutes);
+		tictactoe();
+		break;
 	}
-
 }
 
 

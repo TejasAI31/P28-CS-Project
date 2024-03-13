@@ -22,6 +22,17 @@ void ismessopen(int day,int hours,int minutes)
 	}
 }
 
+//checks is clh is open
+void iscentrallecturehallopen(int hours,int minutes)
+{
+	if (hours >= 8 && hours <= 20)
+		printf("%sCentral Lecture Hall:%sOpen%s", magenta, brightgreen, white);
+	else
+		printf("%sCentral Lecture Hall:%sClosed%s", magenta, brightred, white);
+}
+
+
+
 //Prints Banjara status
 void isbanjaraopen(int hours, int minutes)
 {
@@ -42,6 +53,9 @@ void issportscomplexopen(int hours, int minutes)
 	printf("%s (Sports Complex Timings:8:00-22:00)%s\n", yellow, white);
 }
 
+
+
+//shows all the timings
 void showtimings(char inputday[], char inputtime[], char inputhours[], char inputminutes[])
 {
 	char returnchoice='m';
@@ -50,6 +64,21 @@ void showtimings(char inputday[], char inputtime[], char inputhours[], char inpu
 	printf("%s   Current time: %s%s%s\n\n", cyan, brightyellow, inputtime, white);
 	int hours = ((int)inputhours[0] - 48) * 10 + ((int)inputhours[1] - 48);
 	int minutes = ((int)inputminutes[0] - 48) * 10 + ((int)inputminutes[1] - 48);
+
+
+	//Print academics status
+	printf("%sACADEMICS:%s\n",brightblue,white);
+	if (strcmp(inputday, "Sun") == 0)
+	{
+		printf("%sCentral Lecture Hall:%sClosed%s", magenta, brightred, white);
+	}
+	else
+	{
+		iscentrallecturehallopen(hours,minutes);
+	}
+	printf("%s (Central Lecture Hall Timings:8:00-20:00)%s\n\n", yellow, white);
+
+
 
 	printf("%sFOOD:%s\n", brightblue, white);
 	//Checks mess status
@@ -64,14 +93,14 @@ void showtimings(char inputday[], char inputtime[], char inputhours[], char inpu
 	isbanjaraopen(hours, minutes);
 
 	//checks sports complex status
-	printf("\n%sSPORTS%s\n", brightblue, white);
+	printf("\n%sSPORTS:%s\n", brightblue, white);
 	issportscomplexopen(hours, minutes);
 
 	printf("%s\n\nReturn? (y/n): %s%s", brightyellow, white,save);
 	while ((int)returnchoice != (int)'y' && (int)returnchoice != (int)'n')
 	{
 		printf("%s%s", reset,"\033[0K");
-		scanf("%c", &returnchoice);
+		scanf_s("%c", &returnchoice);
 	}
 
 
