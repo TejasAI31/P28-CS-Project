@@ -16,7 +16,7 @@ void drawtictac()
 
 void placetoken()
 {
-	printf("%s\033[2A\033[4D == \033[1B\033[4D|  |\033[1B\033[4D == %s", green, white);
+	printf("%s%s\033[2A\033[4D == \033[1B\033[4D|  |\033[1B\033[4D == %s%s", brightyellow,greenbkg, white,defaultbkg);
 }
 
 
@@ -43,7 +43,7 @@ void shiftbkg(int position)
 	case 9:printf("\033[9;11H");
 		break;
 	}
-	printf("%s    \033[1B\033[4D    \033[1B\033[4D    ", magentabkg);
+	printf("%s    \033[1B\033[4D    \033[1B\033[4D    ", greenbkg);
 }
 
 
