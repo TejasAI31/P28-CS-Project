@@ -27,6 +27,7 @@ void updatetime()
 //shows the main hub
 void mainscreen()
 {
+	system("cls");
 	updatetime();
 	//mainscreen
 	printf("		%s---------------------------------\n", brightyellow);
