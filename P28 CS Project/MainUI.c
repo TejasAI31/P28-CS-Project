@@ -70,7 +70,6 @@ void mainscreen()
 		showtimings(day, currenttime, hours, minutes);
 		break;
 	case 56:
-		loadingscreen(minutes);
 		tictactoe();
 		break;
 	}

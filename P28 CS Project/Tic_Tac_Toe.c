@@ -7,10 +7,17 @@ void drawtictac()
 {
 	system("cls");
 	printf("    |    |    \n    |    |    \n    |    |    \n====|====|====\n    |    |    \n    |    |    \n    |    |    \n====|====|====\n    |    |    \n    |    |    \n    |    |    \n");
-	printf("\n%sRULES:%s\n1. W or w=>Up\n2.A or a=>Left\n3.D or d=>Right\n4.S or s=>Down%s\n",brightred,brightgreen,white);
+	printf("\n%sRULES:%s\n1.W or w=>Up\n2.A or a=>Left\n3.D or d=>Right\n4.S or s=>Down%s\n",brightred,brightgreen,white);
 	printf("\n%sEnter an input:%s%s", brightblue, white, save);
 }
 
+
+
+
+void placetoken()
+{
+	printf("%s\033[2A\033[4D == \033[1B\033[4D|  |\033[1B\033[4D == %s", green, white);
+}
 
 
 void shiftbkg(int position)
@@ -42,16 +49,6 @@ void shiftbkg(int position)
 
 
 
-void placetoken()
-{
-
-
-}
-
-
-
-
-
 
 //Shifts Position based on user input
 void shiftpos(char input)
@@ -79,10 +76,6 @@ void shiftpos(char input)
 		if (currentposition % 3 != 0)
 			currentposition += 1;
 	}
-	if (input == 'e' || input == 'E')
-	{
-		placetoken();
-	}
 }
 
 
@@ -92,7 +85,6 @@ void tictactoe()
 {
 	int positions[3][3] = { 1,2,3,4,5,6,7,8,9 };
 	char userinput;
-	int movescounter = 0; 
 	drawtictac();
 	do
 	{
@@ -100,9 +92,11 @@ void tictactoe()
 		{
 			printf("%s\033[0K",reset);
 			userinput = getchar();
-		} while (userinput!='a'&&userinput!='A'&&userinput != 'w'&& userinput != 'W'&& userinput != 's'&& userinput != 'S'&& userinput != 'd'&& userinput != 'D'&&userinput!='e'&&userinput!='E');
-		shiftpos(userinput);
+		} while (userinput!='a'&&userinput!='A'&&userinput != 'w'&& userinput != 'W'&& userinput != 's'&& userinput != 'S'&& userinput != 'd'&& userinput != 'D'&& userinput!='e'&& userinput!='E');
 		drawtictac();
+		shiftpos(userinput);
 		shiftbkg(currentposition);
+		if (userinput == 'e' || userinput == 'E')
+			placetoken();
 	} while (userinput != 'x'&&userinput!='X');
 }
