@@ -72,6 +72,7 @@ void mainscreen()
 		break;
 	case 56:
 		loadingscreen(minutes);
+		updatetime();
 		tictactoe();
 		break;
 	}

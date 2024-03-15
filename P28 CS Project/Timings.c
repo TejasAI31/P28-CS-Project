@@ -110,5 +110,5 @@ void showtimings(char inputday[], char inputtime[], char inputhours[], char inpu
 		mainscreen();
 	}
 	else
-		showtimings(inputday, inputtime, inputhours, inputminutes);
+	showtimings(inputday, inputtime, inputhours, inputminutes);
 }
