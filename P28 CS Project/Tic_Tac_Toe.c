@@ -6,7 +6,7 @@ int checkboardstate=0;
 
 
 
-
+//checks bot victory condition
 int checkbotvictory()
 {
 	//Checks rows for user victory

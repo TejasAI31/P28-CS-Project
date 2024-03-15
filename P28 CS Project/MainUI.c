@@ -66,13 +66,13 @@ void mainscreen()
 	switch (choice)
 	{
 	case 51:
-		loadingscreen(minutes);
 		updatetime();
+		loadingscreen(minutes);
 		showtimings(day, currenttime, hours, minutes);
 		break;
 	case 56:
-		loadingscreen(minutes);
 		updatetime();
+		loadingscreen(minutes);
 		tictactoe();
 		break;
 	}

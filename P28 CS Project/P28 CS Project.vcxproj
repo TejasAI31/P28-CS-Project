@@ -139,6 +139,7 @@
     <ClCompile Include="Tic_Tac_Toe.c" />
     <ClCompile Include="Time_Table.c" />
     <ClCompile Include="Timings.c" />
+    <ClCompile Include="User.c" />
     <ClCompile Include="Weekly_Quiz.c" />
   </ItemGroup>
   <ItemGroup>
