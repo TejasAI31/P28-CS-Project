@@ -374,7 +374,7 @@ void drawtictac()
 	system("cls");
 	printf("    |    |    \n    |    |    \n    |    |    \n====|====|====\n    |    |    \n    |    |    \n    |    |    \n====|====|====\n    |    |    \n    |    |    \n    |    |    \n%s",save);
 	restorepreviousboardstate(); 
-	printf("\n%sRULES:%s\n1.W or w=>Up\n2.A or a=>Left\n3.D or d=>Right\n4.S or s=>Down\n5.X or x=>End Game%s\n", brightred, brightgreen, white);
+	printf("\n%sRULES:%s\n1.W or w=>Up\n2.A or a=>Left\n3.D or d=>Right\n4.S or s=>Down\n5.E or e=>Place 0\n6.X or x=>End Game%s\n", brightred, brightgreen, white);
 	printf("\n%sEnter an input sequence:%s%s", brightblue, white, save);
 }
 
