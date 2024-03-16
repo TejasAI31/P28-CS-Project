@@ -135,6 +135,7 @@
     <ClCompile Include="includeheaders.h" />
     <ClCompile Include="Loadingscreen.c" />
     <ClCompile Include="MainUI.c" />
+    <ClCompile Include="NewUserData.h" />
     <ClCompile Include="SWB.c" />
     <ClCompile Include="Tic_Tac_Toe.c" />
     <ClCompile Include="Time_Table.c" />

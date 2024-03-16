@@ -57,6 +57,9 @@
     <ClCompile Include="User.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NewUserData.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="colors.h">

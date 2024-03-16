@@ -6,3 +6,4 @@
 #include "altscreen.h"
 #include "colors.h"
 #include "Cursorposition.h"
+#include "NewUserData.h"

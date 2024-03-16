@@ -35,6 +35,8 @@ int checkbotvictory()
 
 }
 
+
+
 //checks if board is full
 void isboardfull()
 {
@@ -478,7 +480,8 @@ void tictactoe()
 
 		if (userinput == 'e'&&boardstate[currentposition-1]==0 || userinput == 'E' && boardstate[currentposition - 1] == 0)
 		{
-			placetoken();
+			draw0(currentposition);
+			boardstate[currentposition-1] = 1;
 			if (checkuservictory() == 1)
 				break;
 			else
@@ -491,6 +494,7 @@ void tictactoe()
 				}
 				else
 				{
+					Sleep(500);
 					opponentturn();
 					if (checkbotvictory() == 1)
 						break;
@@ -516,4 +520,5 @@ void tictactoe()
 	}
 	else
 		mainscreen();
+
 }

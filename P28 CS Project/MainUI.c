@@ -67,7 +67,6 @@ void mainscreen()
 	{
 	case 51:
 		updatetime();
-		loadingscreen(minutes);
 		showtimings(day, currenttime, hours, minutes);
 		break;
 	case 56:
@@ -81,5 +80,7 @@ void mainscreen()
 
 int main(void)
 {
+	loginportal();
+	loadingscreen(minutes);
 	mainscreen();
 }

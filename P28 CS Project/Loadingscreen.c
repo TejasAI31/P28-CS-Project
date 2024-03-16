@@ -13,7 +13,7 @@ void loadingscreen(int seed)
 	int loading = 0;
 	int progress;
 	system("cls");
-	printf("\033[9;20HLOADING\033[10;8H");
+	printf("\033[14;55HLOADING\033[15;43H");
 	printf("[%s______________________________]%s", save,reset);
 	srand(seed);
 	while (loading < 30)
