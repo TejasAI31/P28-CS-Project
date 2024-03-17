@@ -100,14 +100,104 @@ ______BBBBB*____________*88BBBo
 
 #include "includeheaders.h"
 
+ int userexists()
+{
+	char checkuser[100];
+	char checkpassword[100];
+	FILE* readfile;
+	readfile = fopen("userinfo.txt", "r");
+	while (fscanf(readfile, "%s", checkuser) != EOF)
+	{
+			fscanf(readfile, "%s", checkpassword);
+			if (strcmp(username, checkuser) == 0 && strcmp(userpassword, checkpassword) == 0)
+				return 1;
+	}
+}
+
+
+
+void checklogin()
+{
+	system("cls");
+	printf("\033[10;50HUSERNAME:%s",brightgreen);
+	scanf("%s", username);
+	printf("%s\033[11;50HPASSWORD:%s%s",white,brightgreen, save);
+	printf("%s\033[0K", reset);
+	scanf("%s", userpassword);
+	printf("%s", white);
+	fflush(stdout);
+	if (userexists()!= 1)
+		checklogin();
+}
+
+
+int checkconditions(char password[])
+{
+	int checklength = 0;
+	int capital = 0;
+	int special = 0;
+	char confirmpassword[30];
+
+	int length = strlen(password);
+	if (length >= 6)
+		checklength= 1;
+
+	for (int x = 0; x < length; x++)
+	{
+		if (password[x] >= 65 && password[x] <= 90)
+			capital = 1;
+		if (password[x] == 33 || password[x] == 38 || password[x] == 35 || password[x] == 36 || password[x] == 37 || password[x] == 42||password[x]==64)
+			special = 1;
+	}
+	if (checklength + capital + special >= 3)
+	{
+		printf("%s", reset);
+		for (int x = 1; x <= length; x++)
+		{
+			printf("*");
+		}
+		printf("\033[12;42H%sCONFIRM PASSWORD:%s%s",brightgreen,white save);
+		do 
+		{
+			printf("%s\033[0K%s", reset,brightyellow);
+			scanf("%s", confirmpassword);
+			printf("%s", white);
+		} while (strcmp(password, confirmpassword) != 0);
+		return 1;
+	}
+	else return 0;
+}
+
+void passwordstrength()
+{
+	int conditions = 0;
+	printf("\033[22;53H%sRULES:\033[23;53H=====%s\033[25;30H1.Password length should be greater than 6 letters.\033[26;30H2.Atleast one letter should be capitalized.\033[27;30H3.Atleast one special character should be present(!,@,#,$,%%,^,&,*,)%s",cyan,brightgreen,white);
+	printf("\033[11;50HPASSWORD:%s%s", brightyellow,save);
+	do
+	{
+		printf("%s\033[0K", reset);
+		scanf("%s", userpassword);
+		printf("%s", white);
+		conditions = checkconditions(userpassword);
+		fflush(stdout);
+	} while (conditions != 1);
+}
+
+
+
 void nameandpassword()
 {
 	system("cls");
-	printf("\033[10;50HUSERNAME:");
+	printf("\033[10;50HUSERNAME:%s",brightyellow);
 	scanf("%s", username);
-	printf("\033[11;50HPASSWORD:%s",save);
-	scanf("%s", userpassword);
-	fflush(stdout);
+	printf("%s", white);
+	passwordstrength();
+	
+	//Writes username and password to file
+	FILE *file;
+	file = fopen("userinfo.txt", "a");
+	fprintf(file, "%s\n%s\n",username, userpassword);
+	fclose(file);
 }
 
 
@@ -128,13 +218,24 @@ void genderpage()
 
 
 
-void loginportal()
+void userportal()
 {
 	system("cls");
 	printf("Login page\n");
-	printf("Press Enter To Continue:\n");
+	printf("Press 1 to login\n");
+	printf("Press 2 to sign up\n%s",save);
 	char enterscreen;
-	enterscreen = getchar();
-	genderpage();
-	nameandpassword();
+	do
+	{
+		printf("%s\033[0K",reset);
+		enterscreen = getchar();
+	} while (enterscreen != '1' && enterscreen != '2');
+
+	if (enterscreen == '2')
+	{
+		genderpage();
+		nameandpassword();
+	}
+	else
+		checklogin();
 }

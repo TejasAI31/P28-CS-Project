@@ -80,7 +80,7 @@ void mainscreen()
 
 int main(void)
 {
-	loginportal();
+	userportal();
 	loadingscreen(minutes);
 	mainscreen();
 }
