@@ -221,14 +221,15 @@ void genderpage()
 void userportal()
 {
 	system("cls");
-	printf("Login page\n");
-	printf("Press 1 to login\n");
-	printf("Press 2 to sign up\n%s",save);
+	printf("\033[12;55H%sLogin page%s\n",brightgreen,white);
+	printf("\033[14;48H1) Press 1 to login\n");
+	printf("\033[15;48H2) Press 2 to sign up\033[17;59H%s",save);
 	char enterscreen;
 	do
 	{
-		printf("%s\033[0K",reset);
+		printf("%s\033[0K%s",reset,brightyellow);
 		enterscreen = getchar();
+		printf("%s", white);
 	} while (enterscreen != '1' && enterscreen != '2');
 
 	if (enterscreen == '2')
