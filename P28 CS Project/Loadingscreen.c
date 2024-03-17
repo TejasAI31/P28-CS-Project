@@ -1,13 +1,13 @@
 #include "includeheaders.h"
 
-
+//loads progress
 void load(int progress)
 {
 	for (int x = 1; x <= progress; x++)
 		printf("%s#%s",green,white);
 }
 
-
+//loading screen
 void loadingscreen(int seed)
 {
 	int loading = 0;
