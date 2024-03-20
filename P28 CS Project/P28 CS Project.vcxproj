@@ -133,6 +133,7 @@
     <ClCompile Include="Cursorposition.h" />
     <ClCompile Include="Hospital.c" />
     <ClCompile Include="includeheaders.h" />
+    <ClCompile Include="Library.c" />
     <ClCompile Include="Loadingscreen.c" />
     <ClCompile Include="MainUI.c" />
     <ClCompile Include="NewUserData.h" />

@@ -60,6 +60,9 @@
     <ClCompile Include="NewUserData.h">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Library.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="colors.h">

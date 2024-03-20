@@ -38,13 +38,14 @@ void mainscreen()
 	printf("\n\n%sCatalogue:%s\n", cyan, white);
 	printf("%s-----------------------\n%s", magenta, white);
 	printf("%s1:%sTimetable%s\n", magenta, cyan, white);
-	printf("%s2:%sClubs%s\n", magenta, cyan, white);
-	printf("%s3:%sTimings%s\n", magenta, cyan, white);
-	printf("%s4:%sSWB%s\n", magenta, cyan, white);
-	printf("%s5:%sContacts%s\n", magenta, cyan, white);
-	printf("%s6:%sComplaints%s\n", magenta, cyan, white);
-	printf("%s7:%sWeekly Quiz%s\n", magenta, cyan, white);
-	printf("%s8:%sTic Tac Toe%s\n", magenta, cyan, white);
+	printf("%s2:%sLibrary%s\n", magenta, cyan, white);
+	printf("%s3:%sClubs%s\n", magenta, cyan, white);
+	printf("%s4:%sTimings%s\n", magenta, cyan, white);
+	printf("%s5:%sSWB%s\n", magenta, cyan, white);
+	printf("%s6:%sContacts%s\n", magenta, cyan, white);
+	printf("%s7:%sComplaints%s\n", magenta, cyan, white);
+	printf("%s8:%sWeekly Quiz%s\n", magenta, cyan, white);
+	printf("%s9:%sTic Tac Toe%s\n", magenta, cyan, white);
 	printf("%s-----------------------\n\n%s%s", magenta, white, save);
 
 	//prints date
@@ -61,15 +62,18 @@ void mainscreen()
 			printf("%sEnter a valid choice(1-8):%s", brightred, white);
 		scanf_s("%c", &choice);
 		anger += 1;
-	} while (choice < 49 || choice>56);
+	} while (choice < 49 || choice>57);
 	
 	switch (choice)
 	{
-	case 51:
+	case 52:
 		updatetime();
 		showtimings(day, currenttime, hours, minutes);
 		break;
-	case 56:
+	case 50:
+		mainlibrary();
+		break;
+	case 57:
 		updatetime();
 		loadingscreen(minutes);
 		tictactoe();
