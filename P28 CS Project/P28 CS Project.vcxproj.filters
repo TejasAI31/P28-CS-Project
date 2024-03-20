@@ -72,4 +72,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="userinfo.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="libbooks.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

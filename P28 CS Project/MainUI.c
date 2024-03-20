@@ -57,9 +57,9 @@ void mainscreen()
 	do {
 		printf("%s\033[0K", reset);
 		if (anger == 0)
-			printf("%sEnter a valid choice(1-8):%s", brightgreen, white);
+			printf("%sEnter a valid choice(1-9):%s", brightgreen, white);
 		else
-			printf("%sEnter a valid choice(1-8):%s", brightred, white);
+			printf("%sEnter a valid choice(1-9):%s", brightred, white);
 		scanf_s("%c", &choice);
 		anger += 1;
 	} while (choice < 49 || choice>57);
