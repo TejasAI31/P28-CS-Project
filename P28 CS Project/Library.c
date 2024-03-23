@@ -1,7 +1,102 @@
 #include "includeheaders.h"
 
 
+void mainlibrary();
 
+//searches a book
+void searchbook()
+{
+	FILE* searchfile;
+	searchfile = fopen("libbooks.txt", "r");
+	char booksearcher[40];
+	char userbook[40];
+	char bookprinter[40];
+	int bookfound = 0;
+	system("cls");
+	printf("\033[10;35HEnter a keyword of the book you wish to search :%s",brightgreen);
+	scanf("%s", userbook);
+
+	printf("\n\n");
+
+
+	for (int x = 0; x < strlen(userbook); x++)
+	{
+		if (userbook[x] >= 65 || userbook[x] <= 90)
+			userbook[x] = tolower(userbook[x]);
+	}
+
+
+
+	while (fscanf(searchfile, "%s", booksearcher) != EOF)
+	{
+		char enhancedbooksearcher[40];
+
+
+		for (int x = 0; x < strlen(booksearcher); x++)
+		{
+			if (booksearcher[x] >= 65 || booksearcher[x] <= 90)
+				booksearcher[x] = tolower(booksearcher[x]);
+		}
+		
+
+
+
+
+		for (int x = 0; x < strlen(booksearcher); x++)
+		{
+			enhancedbooksearcher[x] = booksearcher[x];
+			enhancedbooksearcher[strlen(userbook)] = '\0';
+
+
+
+
+			if (strcmp(userbook, enhancedbooksearcher) == 0)
+			{
+				bookfound = 1;
+				printf("%s", brightyellow);
+				while (getc(searchfile) != '.')
+				{
+					fseek(searchfile, -2, SEEK_CUR);
+				}
+				while (enhancedbooksearcher[1] != '.' && enhancedbooksearcher[2] != '.' && enhancedbooksearcher[3] != '.')
+				{
+					fscanf(searchfile, "%s", enhancedbooksearcher);
+					if (enhancedbooksearcher[1] == '.' && enhancedbooksearcher[2] == '.' && enhancedbooksearcher[3] == '.')
+						break;
+					if (enhancedbooksearcher[0] == '-')
+					{
+						printf(" %s", magenta);
+					}
+					printf("%s ", enhancedbooksearcher);
+				}
+				printf("\n");
+			}
+		}
+	}
+	if (bookfound == 0)
+	{
+		printf("%s\033[12;54HBook Not Found\033[13;54H==============",brightred);
+	}
+
+	char replaychoice='c';
+	printf("%s\n\n\n\n\033[31Cr->Return to Library, m->Return to Main Screen, t->Try Again: %s",brightgreen, save);
+	do
+	{
+		printf("%s\033[0K", reset);
+		scanf("%c", &replaychoice);
+	} while (replaychoice != 'r' && replaychoice != 'm' && replaychoice != 't');
+	if (replaychoice == 'r')
+		mainlibrary();
+	else if (replaychoice == 'm')
+		mainscreen();
+	else if (replaychoice == 't')
+	{
+		printf("%s", cyan);
+		searchbook();
+	}
+}
+
+//displays library
 void mainlibrary()
 {
 	system("cls");
@@ -43,6 +138,11 @@ void mainlibrary()
 			{
 				fclose(libfile);
 				mainscreen();
+			}
+			else if (userchoice == 's')
+			{
+				fclose(libfile);
+				searchbook();
 			}
 		}
 

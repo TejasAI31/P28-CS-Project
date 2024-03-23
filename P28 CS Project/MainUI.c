@@ -84,7 +84,5 @@ void mainscreen()
 
 int main(void)
 {
-	userportal();
-	loadingscreen(minutes);
 	mainscreen();
 }

@@ -22,7 +22,7 @@
 22.	Crime and Punishment	-Fyodor Dostoyevsky
 23.	Madame Bovary: Patterns of Provincial life	-Gustave Flaubert
 24.	The Return of the King	-J.R.R. Tolkien
-25.	Dracula	Bram Stoker
+25.	Dracula	-Bram Stoker
 26.	The Three Musketeers	-Alexandre Dumas
 27.	Brave New World	-Aldous Huxley
 28.	War and Peace	-Leo Tolstoy
@@ -88,7 +88,7 @@
 88.	The Da Vinci Code	-Dan Brown
 89.	Persuasion	-Jane Austen
 90.	Mansfield Park	-Jane Austen
-91.	Candide	Voltaire
+91.	Candide	-Voltaire
 92.	For Whom the Bell Tolls	-Ernest Hemingway
 93.	Far from the Madding Crowd	-Thomas Hardy
 94.	The Fellowship of the Ring	-J.R.R. Tolkien
@@ -427,8 +427,8 @@
 427.	The Wings of the Dove	-Henry James
 428.	The Summer of the Swans	-Betsy Cromer Byars
 429.	Dangerous Liaisons	-Choderlos de Laclos
-430.	Jurassic Park	Michael -Crichton
-431.	The Absolutely True Diary of a Part-time Indian	-Sherman Alexie
+430.	Jurassic Park	-Michael Crichton
+431.	The Absolutely True Diary of a Part time Indian	-Sherman Alexie
 432.	The Grey King	-Susan Cooper
 433.	The Leopard	-Giuseppe Tomasi di Lampedusa
 434.	The Mammoth Hunters	-Jean M. Auel
