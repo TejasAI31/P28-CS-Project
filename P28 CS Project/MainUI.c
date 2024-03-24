@@ -30,6 +30,24 @@ void mainscreen()
 	system("cls");
 	updatetime();
 	//mainscreen
+	for (int y = 1; y <= 2; y++)
+	{
+		printf("%s%s", yellow, magentabkg);
+		for (int x = 1; x <= 30; x++)
+		{
+			if (x == 23)
+			{
+				printf("%s%s", yellow, cyanbkg);
+				if (y == 1)
+					printf("\033[14D\033[1B");
+				else
+					printf("\033[1B");
+			}
+			printf("||==========||\033[14D\033[1B");
+		}
+		printf("\033[0;106H");
+	}
+	printf("\033[0;0H");
 	printf("\033[41C%s---------------------------------\n", brightyellow);
 	printf("\033[41C!%sWELCOME TO THE IIT PATNA PORTAL%s!\n", brightblue, brightyellow);
 	printf("\033[41C---------------------------------\n%s", white);
@@ -49,7 +67,7 @@ void mainscreen()
 	printf("%s\033[44C-----------------------\n\n%s\033[44C%s", magenta, white, save);
 
 	//prints date
-	printf("\033[6;100H--%s%s%s--", brightgreen, dateandmonth, white);
+	printf("\033[6;85H--%s%s%s--", brightgreen, dateandmonth, white);
 
 
 	//checks for valid input and turns red if wrong
@@ -84,7 +102,5 @@ void mainscreen()
 
 int main(void)
 {
-	userportal();
-	loadingscreen(minutes);
 	mainscreen();
 }

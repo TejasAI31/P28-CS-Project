@@ -132,7 +132,6 @@
     <ClCompile Include="Contacts.c" />
     <ClCompile Include="Cursorposition.h" />
     <ClCompile Include="Hospital.c" />
-    <ClCompile Include="includeheaders.h" />
     <ClCompile Include="Library.c" />
     <ClCompile Include="Loadingscreen.c" />
     <ClCompile Include="MainUI.c" />
@@ -147,6 +146,7 @@
   <ItemGroup>
     <ClInclude Include="altscreen.h" />
     <ClInclude Include="colors.h" />
+    <ClInclude Include="includeheaders.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="libbooks.txt" />
