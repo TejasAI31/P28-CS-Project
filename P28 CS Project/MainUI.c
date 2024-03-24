@@ -43,7 +43,7 @@ void mainscreen()
 				else
 					printf("\033[1B");
 			}
-			printf("||==========||\033[14D\033[1B");
+			printf("||          ||\033[14D\033[1B");
 		}
 		printf("\033[0;106H");
 	}

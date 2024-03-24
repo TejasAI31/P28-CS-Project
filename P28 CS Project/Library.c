@@ -112,6 +112,18 @@ void searchbook()
 void mainlibrary()
 {
 	system("cls");
+	printf("%s%s\033[0;106H", yellow, yellowbkg);
+	for (int x = 1; x <= 30; x++)
+	{
+		if (x == 5)
+		{
+			printf("%s%s", yellow, bluebkg);
+			printf("\033[1B");
+		}
+		printf("||          ||\033[14D\033[1B");
+		}
+	printf("\033[0;106H");
+	printf("\033[0;0H");
 	FILE* libfile;
 	libfile = fopen("libbooks.txt", "r");
 	char book[100];
