@@ -13,9 +13,13 @@ void searchbook()
 	char bookprinter[40];
 	int bookfound = 0;
 	system("cls");
-	printf("\033[10;35HEnter a keyword of the book you wish to search :%s",brightgreen);
-	scanf("%s", userbook);
-
+	printf("\033[10;35HEnter a keyword of the book you wish to search :%s%s",brightgreen,save);
+	do
+	{
+		printf("\033[11;42H(Word length must be greater then 2)");
+		printf("%s\033[0K", reset);
+		scanf("%s", userbook);
+	} while (strlen(userbook) < 3);
 	printf("\n\n");
 
 
@@ -42,7 +46,7 @@ void searchbook()
 
 
 
-		for (int x = 0; x < strlen(booksearcher); x++)
+		for (int x = 0; x < strlen(userbook); x++)
 		{
 			enhancedbooksearcher[x] = booksearcher[x];
 			enhancedbooksearcher[strlen(userbook)] = '\0';
@@ -54,14 +58,16 @@ void searchbook()
 			{
 				bookfound = 1;
 				printf("%s", brightyellow);
+				fseek(searchfile, -1, SEEK_CUR);
 				while (getc(searchfile) != '.')
 				{
 					fseek(searchfile, -2, SEEK_CUR);
 				}
+
 				while (enhancedbooksearcher[1] != '.' && enhancedbooksearcher[2] != '.' && enhancedbooksearcher[3] != '.')
 				{
 					fscanf(searchfile, "%s", enhancedbooksearcher);
-					if (enhancedbooksearcher[1] == '.' && enhancedbooksearcher[2] == '.' && enhancedbooksearcher[3] == '.')
+					if (enhancedbooksearcher[1] == '.' || enhancedbooksearcher[2] == '.' || enhancedbooksearcher[3] == '.')
 						break;
 					if (enhancedbooksearcher[0] == '-')
 					{
@@ -70,12 +76,15 @@ void searchbook()
 					printf("%s ", enhancedbooksearcher);
 				}
 				printf("\n");
+				Sleep(100);
 			}
 		}
 	}
+
 	if (bookfound == 0)
 	{
-		printf("%s\033[12;54HBook Not Found\033[13;54H==============",brightred);
+		Sleep(200);
+		printf("%s\033[15;54HBook Not Found\033[16;54H==============",brightred);
 	}
 
 	char replaychoice='c';
@@ -84,17 +93,20 @@ void searchbook()
 	{
 		printf("%s\033[0K", reset);
 		scanf("%c", &replaychoice);
-	} while (replaychoice != 'r' && replaychoice != 'm' && replaychoice != 't');
-	if (replaychoice == 'r')
+	} while (replaychoice != 'r' && replaychoice != 'm' && replaychoice != 't'&&replaychoice != 'R'&& replaychoice != 'M'&& replaychoice != 'T');
+	if (replaychoice == 'r'|| replaychoice == 'R')
 		mainlibrary();
-	else if (replaychoice == 'm')
+	else if (replaychoice == 'm'|| replaychoice == 'M')
 		mainscreen();
-	else if (replaychoice == 't')
+	else if (replaychoice == 't'|| replaychoice =='T')
 	{
 		printf("%s", cyan);
 		searchbook();
 	}
 }
+
+
+
 
 //displays library
 void mainlibrary()

@@ -30,26 +30,26 @@ void mainscreen()
 	system("cls");
 	updatetime();
 	//mainscreen
-	printf("		%s---------------------------------\n", brightyellow);
-	printf("		!%sWELCOME TO THE IIT PATNA PORTAL%s!\n", brightblue, brightyellow);
-	printf("		---------------------------------\n%s", white);
-	printf("\n\nWhat do you wish to do?\n");
-	printf("%s----------------------\n%s", brightyellow,white);
-	printf("\n\n%sCatalogue:%s\n", cyan, white);
-	printf("%s-----------------------\n%s", magenta, white);
-	printf("%s1:%sTimetable%s\n", magenta, cyan, white);
-	printf("%s2:%sLibrary%s\n", magenta, cyan, white);
-	printf("%s3:%sClubs%s\n", magenta, cyan, white);
-	printf("%s4:%sTimings%s\n", magenta, cyan, white);
-	printf("%s5:%sSWB%s\n", magenta, cyan, white);
-	printf("%s6:%sContacts%s\n", magenta, cyan, white);
-	printf("%s7:%sComplaints%s\n", magenta, cyan, white);
-	printf("%s8:%sWeekly Quiz%s\n", magenta, cyan, white);
-	printf("%s9:%sTic Tac Toe%s\n", magenta, cyan, white);
-	printf("%s-----------------------\n\n%s%s", magenta, white, save);
+	printf("\033[41C%s---------------------------------\n", brightyellow);
+	printf("\033[41C!%sWELCOME TO THE IIT PATNA PORTAL%s!\n", brightblue, brightyellow);
+	printf("\033[41C---------------------------------\n%s", white);
+	printf("\n\n\033[45CWhat do you wish to do?\n");
+	printf("%s\033[45C----------------------\n%s", brightyellow,white);
+	printf("\n%s\033[51CCatalogue:%s\n", cyan, white);
+	printf("%s\n\033[44C------------------------\n%s", magenta, white);
+	printf("%s\033[44C1:%sTimetable%s\n", magenta, cyan, white);
+	printf("%s\033[44C2:%sLibrary%s\n", magenta, cyan, white);
+	printf("%s\033[44C3:%sClubs%s\n", magenta, cyan, white);
+	printf("%s\033[44C4:%sTimings%s\n", magenta, cyan, white);
+	printf("%s\033[44C5:%sSWB%s\n", magenta, cyan, white);
+	printf("%s\033[44C6:%sContacts%s\n", magenta, cyan, white);
+	printf("%s\033[44C7:%sComplaints%s\n", magenta, cyan, white);
+	printf("%s\033[44C8:%sWeekly Quiz%s\n", magenta, cyan, white);
+	printf("%s\033[44C9:%sTic Tac Toe%s\n", magenta, cyan, white);
+	printf("%s\033[44C-----------------------\n\n%s\033[44C%s", magenta, white, save);
 
 	//prints date
-	printf("\033[6;50H--%s%s%s--", brightgreen, dateandmonth, white);
+	printf("\033[6;100H--%s%s%s--", brightgreen, dateandmonth, white);
 
 
 	//checks for valid input and turns red if wrong
@@ -84,5 +84,7 @@ void mainscreen()
 
 int main(void)
 {
+	userportal();
+	loadingscreen(minutes);
 	mainscreen();
 }

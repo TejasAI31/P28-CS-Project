@@ -1,500 +1,501 @@
-1.	Don Quixote	-Miguel de Cervantes
-2.	Alice's Adventures in Wonderland	-Lewis Carroll
-3.	The Adventures of Huckleberry Finn	-Mark Twain
-4.	The Adventures of Tom Sawyer	-Mark Twain
-5.	Treasure Island	Robert -Louis Stevenson
-6.	Pride and Prejudice	-Jane Austen
-7.	Wuthering Heights	-Emily Brontë
-8.	Jane Eyre	-Charlotte Brontë
-9.	Moby Dick	-Herman Melville
-10.	The Scarlet Letter	-Nathaniel Hawthorne
-11.	Gulliver's Travels	-Jonathan Swift
-12.	The Pilgrim's Progress	-John Bunyan
-13.	A Christmas Carol	-Charles Dickens
-14.	David Copperfield	-Charles Dickens
-15.	A Tale of Two Cities	-Charles Dickens
-16.	Little Women	-Louisa May Alcott
-17.	Great Expectations	-Charles Dickens
-18.	The Hobbit, or, There and Back Again	-J.R.R. Tolkien
-19.	Frankenstein, or, the Modern Prometheus	-Mary Shelley
-20.	Oliver Twist	-Charles Dickens
-21.	Uncle Tom's Cabin	-Harriet Beecher Stowe
-22.	Crime and Punishment	-Fyodor Dostoyevsky
-23.	Madame Bovary: Patterns of Provincial life	-Gustave Flaubert
-24.	The Return of the King	-J.R.R. Tolkien
-25.	Dracula	-Bram Stoker
-26.	The Three Musketeers	-Alexandre Dumas
-27.	Brave New World	-Aldous Huxley
-28.	War and Peace	-Leo Tolstoy
-29.	To Kill a Mockingbird	-Harper Lee
-30.	The Wizard of Oz	-L. Frank Baum
-31.	Les Misérables	-Victor Hugo
-32.	The Secret Garden	-Frances Hodgson Burnett
-33.	Animal Farm	-George Orwell
-34.	The Great Gatsby	-F. Scott Fitzgerald
-35.	The Little Prince	-Antoine de Saint-Exupéry
-36.	The Call of the Wild	-Jack London
-37.	20,000 Leagues Under the Sea	-Jules Verne
-38.	Anna Karenina	-Leo Tolstoy
-39.	The Wind in the Willows	-Kenneth Grahame
-40.	The Picture of Dorian Gray	-Oscar Wilde
-41.	The Grapes of Wrath	-John Steinbeck
-42.	Sense and Sensibility	-Jane Austen
-43.	The Last of the Mohicans	-James Fenimore Cooper
-44.	Tess of the d'Urbervilles	-Thomas Hardy
-45.	Harry Potter and the Sorcerer's Stone	-J.K. Rowling
-46.	Heidi	-Johanna Spyri
-47.	Ulysses	-James Joyce
-48.	The Complete Sherlock Holmes	-Arthur Conan Doyle
-49.	The Count of Monte Cristo	-Alexandre Dumas
-50.	The Old Man and the Sea	-Ernest Hemingway
-51.	The Lion, the Witch, and the Wardrobe	-C.S. Lewis
-52.	The Hunchback of Notre Dame	-Victor Hugo
-53.	Pinocchio	-Carlo Collodi
-54.	One Hundred Years of Solitude	-Gabriel García Márquez
-55.	Ivanhoe	-Walter Scott
-56.	The Red Badge of Courage	-Stephen Crane
-57.	Anne of Green Gables	-L.M. Montgomery
-58.	Black Beauty	-Anna Sewell
-59.	Peter Pan	-J.M. Barrie
-60.	A Farewell to Arms	-Ernest Hemingway
-61.	The House of the Seven Gables	-Nathaniel Hawthorne
-62.	Lord of the Flies	-William Golding
-63.	The Prince and the Pauper	-Mark Twain
-64.	A Portrait of the Artist as a Young Man	-James Joyce
-65.	Lord Jim	-Joseph Conrad
-66.	Harry Potter and the Chamber of Secrets	-J.K. Rowling
-67.	The Red & the Black	-Stendhal
-68.	The Stranger	-Albert Camus
-69.	The Trial	-Franz Kafka
-70.	Lady Chatterley's Lover	-D.H. Lawrence
-71.	Kidnapped: The Adventures of David Balfour	-Robert Louis Stevenson
-72.	The Catcher in the Rye	-J.D. Salinger
-73.	Fahrenheit 451	-Ray Bradbury
-74.	A Journey to the Center of the Earth	-Jules Verne
-75.	Vanity Fair	-William Makepeace Thackeray
-76.	All Quiet on the Western Front	-Erich Maria Remarque
-77.	Gone with the Wind	-Margaret Mitchell
-78.	My Ántonia	-Willa Cather
-79.	Of Mice and Men	-John Steinbeck
-80.	The Vicar of Wakefield	-Oliver Goldsmith
-81.	A Connecticut Yankee in King Arthur's Court	-Mark Twain
-82.	White Fang	-Jack London
-83.	Fathers and Sons	-Ivan Sergeevich Turgenev
-84.	Doctor Zhivago	-Boris Leonidovich Pasternak
-85.	The Decameron	-Giovanni Boccaccio
-86.	Nineteen Eighty-Four	-George Orwell
-87.	The Jungle	-Upton Sinclair
-88.	The Da Vinci Code	-Dan Brown
-89.	Persuasion	-Jane Austen
-90.	Mansfield Park	-Jane Austen
-91.	Candide	-Voltaire
-92.	For Whom the Bell Tolls	-Ernest Hemingway
-93.	Far from the Madding Crowd	-Thomas Hardy
-94.	The Fellowship of the Ring	-J.R.R. Tolkien
-95.	The Return of the Native	-Thomas Hardy
-96.	Sons and Lovers	-D.H. Lawrence
-97.	Charlotte's Web	-E.B. White
-98.	The Swiss Family Robinson	-Johann David Wyss
-99.	Bleak House	-Charles Dickens
-100.	Père Goriot	-Honoré de Balzac
-101.	Utopia	-Thomas More
-102.	The History of Tom Jones, a Foundling	-Henry Fielding
-103.	Harry Potter and the Prisoner of Azkaban	-J.K. Rowling
-104.	Kim	-Rudyard Kipling
-105.	The Sound and the Fury	-William Faulkner
-106.	Harry Potter and the Goblet of Fire	-J.K. Rowling
-107.	The Mill on the Floss	-George Eliot
-108.	A Wrinkle in Time	-Madeleine L'Engle
-109.	The Hound of the Baskervilles	-Arthur Conan Doyle
-110.	The Two Towers	-J.R.R. Tolkien
-111.	The War of the Worlds	-H.G. Wells
-112.	Middlemarch	-George Eliot
-113.	The Age of Innocence	-Edith Wharton
-114.	The Color Purple	-Alice Walker
-115.	Northanger Abbey	-Jane Austen
-116.	East of Eden	-John Steinbeck
-117.	On the Road	-Jack Kerouac
-118.	Catch-22	-Joseph Heller
-119.	Around the World in Eighty Days	-Jules Verne
-120.	Hard Times	-Charles Dickens
-121.	Beloved	-Toni Morrison
-122.	Mrs. Dalloway	-Virginia Woolf
-123.	To the Lighthouse	-Virginia Woolf
-124.	The Magician's Nephew	-C.S. Lewis
-125.	Harry Potter and the Order of the Phoenix	-J.K. Rowling
-126.	The Sun Also Rises	-Ernest Hemingway
-127.	The Good Earth	-Pearl S. Buck
-128.	Silas Marner	-George Eliot
-129.	Love in the Time of Cholera	-Gabriel García Márquez
+1.	Don Quixote	-  Miguel de Cervantes
+2.	Alice's Adventures in Wonderland	-  Lewis Carroll
+3.	The Adventures of Huckleberry Finn	-  Mark Twain
+4.	The Adventures of Tom Sawyer	-  Mark Twain
+5.	Treasure Island	Robert -  Louis Stevenson
+6.	Pride and Prejudice	- Jane Austen
+7.	Wuthering Heights	- Emily Brontë
+8.	Jane Eyre	- Charlotte Brontë
+9.	Moby Dick	- Herman Melville
+10.	The Scarlet Letter	- Nathaniel Hawthorne
+11.	Gulliver's Travels	- Jonathan Swift
+12.	The Pilgrim's Progress	- John Bunyan
+13.	A Christmas Carol	- Charles Dickens
+14.	David Copperfield	- Charles Dickens
+15.	A Tale of Two Cities	- Charles Dickens
+16.	Little Women	- Louisa May Alcott
+17.	Great Expectations	- Charles Dickens
+18.	The Hobbit, or, There and Back Again	- J R R Tolkien
+19.	Frankenstein, or, the Modern Prometheus	- Mary Shelley
+20.	Oliver Twist	- Charles Dickens
+21.	Uncle Tom's Cabin	- Harriet Beecher Stowe
+22.	Crime and Punishment	- Fyodor Dostoyevsky
+23.	Madame Bovary: Patterns of Provincial life	- Gustave Flaubert
+24.	The Return of the King	- J R R Tolkien
+25.	Dracula	- Bram Stoker
+26.	The Three Musketeers	- Alexandre Dumas
+27.	Brave New World	- Aldous Huxley
+28.	War and Peace	- Leo Tolstoy
+29.	To Kill a Mockingbird	- Harper Lee
+30.	The Wizard of Oz	- L Frank Baum
+31.	Les Misérables	- Victor Hugo
+32.	The Secret Garden	- Frances Hodgson Burnett
+33.	Animal Farm	- George Orwell
+34.	The Great Gatsby	- F Scott Fitzgerald
+35.	The Little Prince	- Antoine de Saint- Exupéry
+36.	The Call of the Wild	- Jack London
+37.	20,000 Leagues Under the Sea	- Jules Verne
+38.	Anna Karenina	- Leo Tolstoy
+39.	The Wind in the Willows	- Kenneth Grahame
+40.	The Picture of Dorian Gray	- Oscar Wilde
+41.	The Grapes of Wrath	- John Steinbeck
+42.	Sense and Sensibility	- Jane Austen
+43.	The Last of the Mohicans	- James Fenimore Cooper
+44.	Tess of the d'Urbervilles	- Thomas Hardy
+45.	Harry Potter and the Sorcerer's Stone	- J K Rowling
+46.	Heidi	- Johanna Spyri
+47.	Ulysses	- James Joyce
+48.	The Complete Sherlock Holmes	- Arthur Conan Doyle
+49.	The Count of Monte Cristo	- Alexandre Dumas
+50.	The Old Man and the Sea	- Ernest Hemingway
+51.	The Lion, the Witch, and the Wardrobe	- C S Lewis
+52.	The Hunchback of Notre Dame	- Victor Hugo
+53.	Pinocchio	- Carlo Collodi
+54.	One Hundred Years of Solitude	- Gabriel García Márquez
+55.	Ivanhoe	- Walter Scott
+56.	The Red Badge of Courage	- Stephen Crane
+57.	Anne of Green Gables	- L M Montgomery
+58.	Black Beauty	- Anna Sewell
+59.	Peter Pan	- J M Barrie
+60.	A Farewell to Arms	- Ernest Hemingway
+61.	The House of the Seven Gables	- Nathaniel Hawthorne
+62.	Lord of the Flies	- William Golding
+63.	The Prince and the Pauper	- Mark Twain
+64.	A Portrait of the Artist as a Young Man	- James Joyce
+65.	Lord Jim	- Joseph Conrad
+66.	Harry Potter and the Chamber of Secrets	- J K Rowling
+67.	The Red & the Black	- Stendhal
+68.	The Stranger	- Albert Camus
+69.	The Trial	- Franz Kafka
+70.	Lady Chatterley's Lover	- D H Lawrence
+71.	Kidnapped: The Adventures of David Balfour	- Robert Louis Stevenson
+72.	The Catcher in the Rye	- J D Salinger
+73.	Fahrenheit 451	- Ray Bradbury
+74.	A Journey to the Center of the Earth	- Jules Verne
+75.	Vanity Fair	- William Makepeace Thackeray
+76.	All Quiet on the Western Front	- Erich Maria Remarque
+77.	Gone with the Wind	- Margaret Mitchell
+78.	My Ántonia	- Willa Cather
+79.	Of Mice and Men	- John Steinbeck
+80.	The Vicar of Wakefield	- Oliver Goldsmith
+81.	A Connecticut Yankee in King Arthur's Court	- Mark Twain
+82.	White Fang	- Jack London
+83.	Fathers and Sons	- Ivan Sergeevich Turgenev
+84.	Doctor Zhivago	- Boris Leonidovich Pasternak
+85.	The Decameron	- Giovanni Boccaccio
+86.	Nineteen Eighty- Four	- George Orwell
+87.	The Jungle	- Upton Sinclair
+88.	The Da Vinci Code	- Dan Brown
+89.	Persuasion	- Jane Austen
+90.	Mansfield Park	- Jane Austen
+91.	Candide	- Voltaire
+92.	For Whom the Bell Tolls	- Ernest Hemingway
+93.	Far from the Madding Crowd	- Thomas Hardy
+94.	The Fellowship of the Ring	- J R R Tolkien
+95.	The Return of the Native	- Thomas Hardy
+96.	Sons and Lovers	- D H Lawrence
+97.	Charlotte's Web	- E B White
+98.	The Swiss Family Robinson	- Johann David Wyss
+99.	Bleak House	- Charles Dickens
+100.	Père Goriot	- Honoré de Balzac
+101.	Utopia	- Thomas More
+102.	The History of Tom Jones, a Foundling	- Henry Fielding
+103.	Harry Potter and the Prisoner of Azkaban	- J K Rowling
+104.	Kim	- Rudyard Kipling
+105.	The Sound and the Fury	- William Faulkner
+106.	Harry Potter and the Goblet of Fire	- J K Rowling
+107.	The Mill on the Floss	- George Eliot
+108.	A Wrinkle in Time	- Madeleine L'Engle
+109.	The Hound of the Baskervilles	- Arthur Conan Doyle
+110.	The Two Towers	- J R R Tolkien
+111.	The War of the Worlds	- H G Wells
+112.	Middlemarch	- George Eliot
+113.	The Age of Innocence	- Edith Wharton
+114.	The Color Purple	- Alice Walker
+115.	Northanger Abbey	- Jane Austen
+116.	East of Eden	- John Steinbeck
+117.	On the Road	- Jack Kerouac
+118.	Catch- 22	- Joseph Heller
+119.	Around the World in Eighty Days	- Jules Verne
+120.	Hard Times	- Charles Dickens
+121.	Beloved	- Toni Morrison
+122.	Mrs Dalloway	- Virginia Woolf
+123.	To the Lighthouse	- Virginia Woolf
+124.	The Magician's Nephew	- C S Lewis
+125.	Harry Potter and the Order of the Phoenix	- J K Rowling
+126.	The Sun Also Rises	- Ernest Hemingway
+127.	The Good Earth	- Pearl S Buck
+128.	Silas Marner	- George Eliot
+129.	Love in the Time of Cholera	- Gabriel García Márquez
 130.	Rebecca	Daphne Du Maurier
-131.	Jude the Obscure	-Thomas Hardy
-132.	Twilight	-Stephenie Meyer
-133.	A Passage to India	-E.M. Forster
-134.	The Plague	-Albert Camus
-135.	Nicholas Nickleby	-Charles Dickens
-136.	The Pearl	-John Steinbeck
-137.	Ethan Frome	-Edith Wharton
-138.	The Tale of Genji	-Murasaki Shikibu
-139.	The Giver	-Lois Lowry
+131.	Jude the Obscure	- Thomas Hardy
+132.	Twilight	- Stephenie Meyer
+133.	A Passage to India	- E M Forster
+134.	The Plague	- Albert Camus
+135.	Nicholas Nickleby	- Charles Dickens
+136.	The Pearl	- John Steinbeck
+137.	Ethan Frome	- Edith Wharton
+138.	The Tale of Genji	- Murasaki Shikibu
+139.	The Giver	- Lois Lowry
 140.	The Alchemist	Paulo Coelho
-141.	The Strange Case of Dr. Jekyll and Mr. Hyde	-Robert Louis Stevenson
-142.	Robinson Crusoe	-Daniel Defoe
-143.	Tender is the Night	-F. Scott Fitzgerald
-144.	The Idiot	-Fyodor Dostoyevsky
-145.	Hatchet	-Gary Paulsen
-146.	The Kite Runner	-Khaled Hosseini
-147.	One Flew Over the Cuckoo's -Nest	Ken Kesey
-148.	The Portrait of a Lady	-Henry James
-149.	The Outsiders	-S.E. Hinton
-150.	Ben-Hur	-Lew Wallace
-151.	The Mayor of Casterbridge	-Thomas Hardy
-152.	Cry, The Beloved Country	-Alan Paton
-153.	The Last Battle	-C.S. Lewis
-154.	Captains Courageous	-Rudyard Kipling
-155.	The Castle	-Franz Kafka
-156.	The Metamorphosis	-Franz Kafka
-157.	The Magic Mountain (Der Zauberberg)	-Thomas Mann
-158.	James and the Giant Peach	-Roald Dahl
-159.	The Horse and His Boy	-C.S. Lewis
-160.	Angels & Demons	-Dan Brown
-161.	The Voyage of the Dawn Treader	-C.S. Lewis
-162.	The Bell Jar	-Sylvia Plath
-163.	Women in Love	-D.H. Lawrence
-164.	The Yearling	-Marjorie Kinnan Rawlings
-165.	O Pioneers!	-Willa Cather
-166.	The Handmaid's Tale	-Margaret Atwood
-167.	The Moonstone	-Wilkie Collins
-168.	The Old Curiosity Shop	-Charles Dickens
-169.	Little Dorrit	-Charles Dickens
-170.	Prince Caspian: The Return to Narnia	-C.S. Lewis
-171.	Sister Carrie	-Theodore Dreiser
-172.	The Silver Chair	-C.S. Lewis
-173.	The Hunger Games	-Suzanne Collins
-174.	This Side of Paradise	-F. Scott Fitzgerald
-175.	Eugénie Grandet	-Honoré de Balzac
-176.	Of Human Bondage	-W. Somerset Maugham
-177.	Dream of the Red Chamber	-Cao Xueqin
-178.	Life of Pi	-Yann Martel
-179.	Harry Potter and the Deathly Hallows	-J.K. Rowling
-180.	Invisible Man	-Ralph Ellison
-181.	Steppenwolf	-Hermann Hesse
-182.	The Sorrows of Young Werther	-Johann Wolfgang von Goethe
-183.	Bridge to Terabithia	-Katherine Paterson
-184.	The Invisible Man	-H.G. Wells
-185.	Holes	-Louis Sachar
-186.	Siddhartha	-Hermann Hesse
-187.	A Tree Grows in Brooklyn	-Betty Smith
-188.	Through the Looking-Glass, and What Alice Found There	-Lewis Carroll
-189.	In Cold Blood	-Truman Capote
-190.	The House of the Spirits	-Isabel Allende
-191.	Adam Bede	-George Eliot
-192.	The Betrothed	-Alessandro Manzoni
-193.	The Book Thief	-Markus Zusak
-194.	Their Eyes Were Watching God	-Zora Neale Hurston
-195.	One Day in the Life of Ivan Denisovich	-Aleksandr Isaevich Solzhenitsyn
-196.	The Sea Wolf	-Jack London
-197.	Catching Fire	-Suzanne Collins
-198.	Roll of Thunder, Hear My Cry	-Mildred D. Taylor
-199.	Death Comes for the Archbishop	-Willa Cather
-200.	The House of Mirth	-Edith Wharton
-201.	Light in August	-William Faulkner
-202.	The Pickwick Papers	-Charles Dickens
-203.	Remembrance of Things Past	-Marcel Proust
-204.	Barchester Towers and the Warden	-Anthony Trollope
-205.	The Bridge of San Luis Rey	-Thornton Wilder
-206.	The Help	-Kathryn Stockett
-207.	Murder on the Orient Express	-Agatha Christie
-208.	The Lovely Bones	-Alice Sebold
-209.	The Appeal	-John Grisham
-210.	Dombey And Son	-Charles Dickens
-211.	Slaughterhouse-Five	-Kurt Vonnegut
-212.	An American Tragedy	-Theodore Dreiser
-213.	The Bluest Eye	-Toni Morrison
-214.	Little House In the Big Woods	-Laura Ingalls Wilder
-215.	Pippi Longstocking	-Astrid Lindgren
-216.	Germinal	-Émile Zola
-217.	The Heart Is a Lonely Hunter	-Carson McCullers
-218.	The Woman In White	-Wilkie Collins
-219.	Absalom, Absalom!	-William Faulkner
-220.	A Painted House	-John Grisham
-221.	The Girl With the Dragon Tattoo	-Stieg Larsson
-222.	A Room With a View	-E.M. Forster
-223.	Watership Down	-Richard Adams
-224.	Memoirs of a Geisha	-Arthur Golden
-225.	Our Mutual Friend	-Charles Dickens
-226.	Babbitt	-Sinclair Lewis
-227.	The Red Pony	-John Steinbeck
-228.	All the King's Men	-Robert Penn Warren
-229.	Things Fall Apart	-Chinua Achebe
-230.	Lorna Doone	-R.D. Blackmore
-231.	Johnny Tremain	-Esther Forbes
-232.	Anne of Avonlea	-L.M. Montgomery
-233.	Tuck Everlasting	-Natalie Babbitt
-234.	The BFG	-Roald Dahl
-235.	Cannery Row	-John Steinbeck
-236.	The Joy Luck Club	-Amy Tan
-237.	The Silmarillion	-J.R.R. Tolkien
-238.	Roots	-Alex Haley
-239.	Little House on the Prairie	-Laura Ingalls Wilder
-240.	Native Son	-Richard Wright
-241.	Stuart Little	-E.B. White
-242.	Cross Fire	-James Patterson
-243.	The Power and the Glory	-Graham Greene
-244.	A Clockwork Orange	-Anthony Burgess
-245.	The Phantom of the Opera	-Gaston Leroux
-246.	The Martian Chronicles	-Ray Bradbury
-247.	The Road	-Cormac McCarthy
-248.	The Way of All Flesh	-Samuel Butler
-249.	Diary of a Wimpy Kid: The Long Haul	-Jeff Kinney
-250.	Villette	-Charlotte Brontë
-251.	The Curious Incident of the Dog In the Night-Time	-Mark Haddon
-252.	The Mysterious Island	-Jules Verne
-253.	Song of Solomon	-Toni Morrison
-254.	Nana	-Émile Zola
-255.	Quo Vadis	-Henryk Sienkiewicz
-256.	Main Street	-Sinclair Lewis
-257.	Matilda	-Roald Dahl
-258.	Lolita	-Vladimir Vladimirovich Nabokov
-259.	Paper Towns	-John Green
-260.	Sounder	William -H. Armstrong
-261.	Are You There God? It's Me, Margaret	-Judy Blume
-262.	The Notebook	-Nicholas Sparks
-263.	From the Mixed-Up Files of Mrs. Basil E. Frankweiler	-E.L. Konigsburg
-264.	Atlas Shrugged	-Ayn Rand
-265.	The Fountainhead	-Ayn Rand
-266.	Number the Stars	-Lois Lowry
-267.	The Firm	-John Grisham
-268.	Swann's Way	-Marcel Proust
-269.	Ender's Game	-Orson Scott Card
-270.	The Name of the Rose	-Umberto Eco
-271.	A Time to Kill	-John Grisham
-272.	Water for Elephants	-Sara Gruen
-273.	The Time Machine	-H.G. Wells
-274.	Eragon	-Christopher Paolini
-275.	The Hitchhiker's Guide to the Galaxy	-Douglas Adams
-276.	Buddenbrooks	-Thomas Mann
-277.	A Thousand Splendid Suns	-Khaled Hosseini
-278.	The Witch of Blackbird Pond	-Elizabeth George Speare
-279.	And Then There Were None	-Agatha Christie
-280.	A Separate Peace	-John Knowles
-281.	Breaking Dawn	-Stephenie Meyer
-282.	As I Lay Dying	-William Faulkner
-283.	The Girl Who Played With Fire	-Stieg Larsson
-284.	Where the Red Fern Grows	-Wilson Rawls
-285.	Le Morte D'Arthur	-Thomas Malory
-286.	Mockingjay	-Suzanne Collins
-287.	The Pillars of the Earth	-Ken Follett
-288.	Persian Letters	-Montesquieu
-289.	The Client	-John Grisham
-290.	Sula	-Toni Morrison
-291.	Tales of a Fourth Grade Nothing	-Judy Blume
-292.	The Merry Adventures of Robin Hood of Great Renown In Nottinghamshire	-Howard Pyle
-293.	Tortilla Flat	-John Steinbeck
-294.	Look Homeward, Angel	-Thomas Wolfe
-295.	The Mystery of Edwin Drood	-Charles Dickens
-296.	Brideshead Revisited	-Evelyn Waugh
-297.	The Pelican Brief	-John Grisham
-298.	Atonement	-Ian McEwan
-299.	Washington Square	-Henry James
-300.	Like Water for Chocolate	-Laura Esquivel
-301.	The Golden Compass	-Philip Pullman
-302.	The Secret Life of Bees	-Sue Monk Kidd
-303.	The Fault In Our Stars	-John Green
-304.	Nostromo	-Joseph Conrad
-305.	Finnegans Wake	-James Joyce
-306.	The Brethren	-John Grisham
-307.	Coraline	-Neil Gaiman
-308.	Heart of Darkness	-Joseph Conrad
-309.	On the Banks of Plum Creek	-Laura Ingalls Wilder
-310.	Rebecca of Sunnybrook Farm	-Kate Douglas Smith Wiggin
-311.	The Ambassadors	-Henry James
-312.	The Secret Agent	-Joseph Conrad
-313.	The House on Mango Street	-Sandra Cisneros
-314.	Go Tell It on the Mountain	-James Baldwin
-315.	The Testament	-John Grisham
-316.	The Clan of the Cave Bear	-Jean M. Auel
-317.	Cranford	-Elizabeth Cleghorn Gaskell
-318.	Because of Winn-Dixie	-Kate DiCamillo
-319.	My Side of the Mountain	-Jean Craighead George
-320.	The Runaway Jury	-John Grisham
-321.	The Mouse and the Motorcycle	-Beverly Cleary
-322.	The Lost Symbol	-Dan Brown
-323.	The Forsyte Saga	-John Galsworthy
-324.	Gone Girl	-Gillian Flynn
-325.	The Lightning Thief	-Rick Riordan
-326.	The Last Days of Pompeii	-Edward Bulwer Lytton
-327.	The Reader	-Bernhard Schlink
-328.	Caddie Woodlawn	Carol -Ryrie Brink
-329.	The Tale of Despereaux	-Kate DiCamillo
-330.	The Girl Who Kicked the Hornet's Nest	-Stieg Larsson
-331.	Dear Mr. Henshaw	-Beverly Cleary
-332.	The Killer Angels	-Michael Shaara
-333.	Chronicle of a Death Foretold	-Gabriel García Márquez
-334.	The Five People You Meet In Heaven	-Mitch Albom
-335.	The Master and Margarita	-Mikhail Bulgakov
-336.	Winesburg, Ohio	-Sherwood Anderson
-337.	"P" Is for Peril	-Sue Grafton
-338.	My Sister's Keeper	-Jodi Picoult
-339.	Barnaby Rudge	-Charles Dickens
-340.	Howards End	-E.M. Forster
-341.	The Broker	-John Grisham
-342.	The Camel Club	-David Baldacci
-343.	The Rainbow	-D.H. Lawrence
-344.	The Man In the Iron Mask	-Alexandre Dumas
-345.	Mary Poppins	-P.L. Travers
-346.	Artemis Fowl	-Eoin Colfer
-347.	Dear John	-Nicholas Sparks
-348.	Cold Mountain	-Charles Frazier
-349.	Flowers for Algernon	-Daniel Keyes
-350.	The Dark Is Rising	-Susan Cooper
-351.	Resurrection	-Leo Tolstoy
-352.	Fearless Fourteen	-Janet Evanovich
-353.	A Sentimental Journey Through France and Italy	-Laurence Sterne
-354.	The King of Torts	-John Grisham
-355.	The Graveyard Book	-Neil Gaiman
-356.	The Quiet American	-Graham Greene
-357.	The Chamber	-John Grisham
-358.	The English Patient	-Michael Ondaatje
-359.	Snow Falling on Cedars	-David Guterson
-360.	The Long Winter	-Laura Ingalls Wilder
-361.	Sarah, Plain and Tall	-Patricia MacLachlan
-362.	Cross Country	-James Patterson
-363.	The Spy Who Came In from the Cold	-John Le Carré
-364.	A Game of Thrones	-George R.R. Martin
-365.	The Thorn Birds	-Colleen McCullough
-366.	Old Yeller	-Fred Gipson
-367.	Ramona Quimby, Age 8	-Beverly Cleary
-368.	Death In Venice	-Thomas Mann
-369.	By the Shores of Silver Lake	-Laura Ingalls Wilder
-370.	Inferno	-Dan Brown
-371.	Schindler's List	-Thomas Keneally
-372.	Jonathan Livingston Seagull	-Richard Bach
-373.	The Stand	-Stephen King
-374.	The Last Juror	-John Grisham
-375.	Shiloh	Phyllis -Reynolds Naylor
-376.	Girl With a Pearl Earring	-Tracy Chevalier
-377.	The Murder of Roger Ackroyd	-Agatha Christie
-378.	It	-Stephen King
-379.	The Rainmaker	-John Grisham
-380.	The Poisonwood Bible	-Barbara Kingsolver
-381.	The Indian in the Cupboard	-Lynne Reid Banks
-382.	The Maltese Falcon	-Dashiell Hammett
-383.	The Warden	-Anthony Trollope
-384.	The Summons	-John Grisham
-385.	Encyclopedia Brown: Boy Detective	-Donald J. Sobol
-386.	The Time Traveler's Wife	-Audrey Niffenegger
-387.	The Incredible Journey	-Sheila Burnford
-388.	Daughter of Fortune	-Isabel Allende
-389.	Shirley	-Charlotte Brontë
-390.	Bud, Not Buddy	-Christopher Paul Curtis
-391.	The Horse Whisperer	-Nicholas Evans
-392.	The Street Lawyer	-John Grisham
-393.	Nausea	-Jean-Paul Sartre
-394.	To Have and Have Not	-Ernest Hemingway
-395.	The Bridges of Madison County	-Robert James Waller
-396.	Anne of the Island	-L.M. Montgomery
-397.	The Winter of Our Discontent	-John Steinbeck
-398.	The Shining	-Stephen King
-399.	The Tenant of Wildfell Hall	-Anne Brontë
-400.	First Family	-David Baldacci
-401.	The Partner	-John Grisham
-402.	The Girl on the Train	-Paula Hawkins
-403.	The Black Arrow: A Tale of the Two Roses	-Robert Louis Stevenson
-404.	The Rise of Silas Lapham	-William Dea Howells
-405.	The Choice	-Nicholas Sparks
-406.	The Virginian: A Horseman of the Plains	-Owen Wister
-407.	A Walk to Remember	-Nicholas Sparks
-408.	The Maze Runner	-James Dashner
-409.	The Westing Game	-Ellen Raskin
-410.	Misty of Chincoteague	-Marguerite Henry
-411.	Diary of a Wimpy Kid: The Last Straw	-Jeff Kinney
-412.	King Solomon's Mines	-H. Rider Haggard
-413.	The Princess of Cleves	-Madame de (Marie-Madeleine Pioche de La Vergne) La Fayett
-414.	Jacob Have I Loved	-Katherine Paterson
-415.	Mrs. Frisby and the Rats of NIMH	-Robert C. O'Brien
-416.	Misery	-Stephen King
-417.	The Cider House Rules	-John Irving
-418.	King of the Wind	-Marguerite Henry
-419.	The Once and Future King	-T. H. White
-420.	The Witches	-Roald Dahl
-421.	The Subtle Knife	-Philip Pullman
-422.	When You Reach Me	-Rebecca Stead
-423.	Carrie	-Stephen King
-424.	The Moon and Sixpence	-W. Somerset Maugham
-425.	The Higher Power of Lucky	-Susan Patron
-426.	Looking Backward, 2000-1887	-Edward Bellamy
-427.	The Wings of the Dove	-Henry James
-428.	The Summer of the Swans	-Betsy Cromer Byars
-429.	Dangerous Liaisons	-Choderlos de Laclos
-430.	Jurassic Park	-Michael Crichton
-431.	The Absolutely True Diary of a Part time Indian	-Sherman Alexie
-432.	The Grey King	-Susan Cooper
-433.	The Leopard	-Giuseppe Tomasi di Lampedusa
-434.	The Mammoth Hunters	-Jean M. Auel
-435.	The Trumpet of the Swan	-E.B. White
-436.	The Lucky One	-Nicholas Sparks
-437.	These Happy Golden Years	-Laura Ingalls Wilder
-438.	Arrowsmith	-Sinclair Lewis
-439.	Julie of the Wolves	-Jean Craighead George
-440.	The Screwtape Letters	-C.S. Lewis
-441.	The Fall	-Albert Camus
-442.	The No 1 Ladies' Detective Agency	-Alexander McCall Smith
-443.	Worst Case	-James Patterson
-444.	Lost Horizon	-James Hilton
-445.	The Gunslinger	-Stephen King
-446.	The Slave Dancer	-Paula Fox
-447.	Harry Potter and the Half-Blood Prince	-J.K. Rowling
-448.	Inkheart	-Cornelia Funke
-449.	Ramona and her Father	-Beverly Cleary
-450.	Inkspell	-Cornelia Funke
-451.	Ramona the Pest	-Beverly Cleary
-452.	Walk Two Moons	-Sharon Creech
-453.	Miss Peregrine's Home for Peculiar Children	-Ransom Riggs
-454.	The Chocolate War	-Robert Cormier
-455.	Sophie's Choice	William -Styron
-456.	Looking for Alaska	-John Green
-457.	Breakfast at Tiffany's	-Truman Capote
-458.	The Razor's Edge	-W. Somerset Maugham
-459.	Dreamcatcher	-Stephen King
-460.	Orlando	-Virginia Woolf
-461.	The Things they Carried	-Tim O'Brien
-462.	Little Town on the Prairie	-Laura Ingalls Wilder
-463.	Nights in Rodanthe	-Nicholas Sparks
-464.	The Amber Spyglass	-Philip Pullman
-465.	The Miraculous Journey of Edward Tulane	-Kate DiCamillo
-466.	Flatland	-Edwin A. Abbott
-467.	Diary of a Wimpy Kid	-Jeff Kinney
-468.	The Memory Keeper's Daughter	-Kim Edwards
-469.	The Wedding	-Nicholas Sparks
-470.	Fried Green Tomatoes at the Whistle-Stop Cafe	-Fannie Flagg
-471.	The Cricket in Times Square	-George Selden
-472.	The Phantom Tollbooth	-Norton Juster
-473.	Rob Roy	-Walter Scott
-474.	The Death of Ivan Ilych	-Leo Tolstoy
-475.	Alex Cross's Trial	-James Patterson
-476.	Kenilworth	-Walter Scott
-477.	The Life and Opinions of Tristram Shandy	-Laurence Sterne
-478.	The Remains of theDay	-Kazuo Ishiguro
-479.	M.C. Higgins, -The Great	Virginia Hamilton
-480.	Call It Courage	-Armstrong Sperry
-481.	Go Set a Watchman	-Harper Lee
-482.	Bleachers	-John Grisham
-483.	Elijah of Buxton	-Christopher Paul Curtis
-484.	Swimsuit	-James Patterson
-485.	Cat's Cradle	-Kurt Vonnegut
-486.	The Caine Mutiny	-Herman Wouk
-487.	The Heart of the Matter	-Graham Greene
-488.	Harriet, the Spy	-Louise Fitzhugh
-489.	Darkness at Noon	-Arthur Koestler
-490.	A Prayer for Owen Meany	-John Irving
-491.	The God of Small Things	-Arundhati Roy
-492.	The Associate	-John Grisham
-493.	The Shack	-William P. Young
-494.	The Naked and the Dead	-Norman Mailer
-495.	The Sea of Monsters	-Rick Riordan
-496.	Stranger in a Strange Land	-Robert A. Heinlein
-497.	Vision in White	-Nora Roberts
-498.	The Whipping Boy	-Sid Fleischman
-499.	Room	-Emma Donoghue
-500.	Deception Point	-Dan Brown
+141.	The Strange Case of Dr Jekyll and Mr Hyde	- Robert Louis Stevenson
+142.	Robinson Crusoe	- Daniel Defoe
+143.	Tender is the Night	- F Scott Fitzgerald
+144.	The Idiot	- Fyodor Dostoyevsky
+145.	Hatchet	- Gary Paulsen
+146.	The Kite Runner	- Khaled Hosseini
+147.	One Flew Over the Cuckoo's - Nest	Ken Kesey
+148.	The Portrait of a Lady	- Henry James
+149.	The Outsiders	- S E Hinton
+150.	Ben- Hur	- Lew Wallace
+151.	The Mayor of Casterbridge	- Thomas Hardy
+152.	Cry, The Beloved Country	- Alan Paton
+153.	The Last Battle	- C S Lewis
+154.	Captains Courageous	- Rudyard Kipling
+155.	The Castle	- Franz Kafka
+156.	The Metamorphosis	- Franz Kafka
+157.	The Magic Mountain (Der Zauberberg)	- Thomas Mann
+158.	James and the Giant Peach	- Roald Dahl
+159.	The Horse and His Boy	- C S Lewis
+160.	Angels & Demons	- Dan Brown
+161.	The Voyage of the Dawn Treader	- C S Lewis
+162.	The Bell Jar	- Sylvia Plath
+163.	Women in Love	- D H Lawrence
+164.	The Yearling	- Marjorie Kinnan Rawlings
+165.	O Pioneers!	- Willa Cather
+166.	The Handmaid's Tale	- Margaret Atwood
+167.	The Moonstone	- Wilkie Collins
+168.	The Old Curiosity Shop	- Charles Dickens
+169.	Little Dorrit	- Charles Dickens
+170.	Prince Caspian: The Return to Narnia	- C S Lewis
+171.	Sister Carrie	- Theodore Dreiser
+172.	The Silver Chair	- C S Lewis
+173.	The Hunger Games	- Suzanne Collins
+174.	This Side of Paradise	- F Scott Fitzgerald
+175.	Eugénie Grandet	- Honoré de Balzac
+176.	Of Human Bondage	- W Somerset Maugham
+177.	Dream of the Red Chamber	- Cao Xueqin
+178.	Life of Pi	- Yann Martel
+179.	Harry Potter and the Deathly Hallows	- J K Rowling
+180.	Invisible Man	- Ralph Ellison
+181.	Steppenwolf	- Hermann Hesse
+182.	The Sorrows of Young Werther	- Johann Wolfgang von Goethe
+183.	Bridge to Terabithia	- Katherine Paterson
+184.	The Invisible Man	- H G Wells
+185.	Holes	- Louis Sachar
+186.	Siddhartha	- Hermann Hesse
+187.	A Tree Grows in Brooklyn	- Betty Smith
+188.	Through the Looking- Glass, and What Alice Found There	- Lewis Carroll
+189.	In Cold Blood	- Truman Capote
+190.	The House of the Spirits	- Isabel Allende
+191.	Adam Bede	- George Eliot
+192.	The Betrothed	- Alessandro Manzoni
+193.	The Book Thief	- Markus Zusak
+194.	Their Eyes Were Watching God	- Zora Neale Hurston
+195.	One Day in the Life of Ivan Denisovich	- Aleksandr Isaevich Solzhenitsyn
+196.	The Sea Wolf	- Jack London
+197.	Catching Fire	- Suzanne Collins
+198.	Roll of Thunder, Hear My Cry	- Mildred D Taylor
+199.	Death Comes for the Archbishop	- Willa Cather
+200.	The House of Mirth	- Edith Wharton
+201.	Light in August	- William Faulkner
+202.	The Pickwick Papers	- Charles Dickens
+203.	Remembrance of Things Past	- Marcel Proust
+204.	Barchester Towers and the Warden	- Anthony Trollope
+205.	The Bridge of San Luis Rey	- Thornton Wilder
+206.	The Help	- Kathryn Stockett
+207.	Murder on the Orient Express	- Agatha Christie
+208.	The Lovely Bones	- Alice Sebold
+209.	The Appeal	- John Grisham
+210.	Dombey And Son	- Charles Dickens
+211.	Slaughterhouse- Five	- Kurt Vonnegut
+212.	An American Tragedy	- Theodore Dreiser
+213.	The Bluest Eye	- Toni Morrison
+214.	Little House In the Big Woods	- Laura Ingalls Wilder
+215.	Pippi Longstocking	- Astrid Lindgren
+216.	Germinal	- Émile Zola
+217.	The Heart Is a Lonely Hunter	- Carson McCullers
+218.	The Woman In White	- Wilkie Collins
+219.	Absalom, Absalom!	- William Faulkner
+220.	A Painted House	- John Grisham
+221.	The Girl With the Dragon Tattoo	- Stieg Larsson
+222.	A Room With a View	- E M Forster
+223.	Watership Down	- Richard Adams
+224.	Memoirs of a Geisha	- Arthur Golden
+225.	Our Mutual Friend	- Charles Dickens
+226.	Babbitt	- Sinclair Lewis
+227.	The Red Pony	- John Steinbeck
+228.	All the King's Men	- Robert Penn Warren
+229.	Things Fall Apart	- Chinua Achebe
+230.	Lorna Doone	- R D Blackmore
+231.	Johnny Tremain	- Esther Forbes
+232.	Anne of Avonlea	- L M Montgomery
+233.	Tuck Everlasting	- Natalie Babbitt
+234.	The BFG	- Roald Dahl
+235.	Cannery Row	- John Steinbeck
+236.	The Joy Luck Club	- Amy Tan
+237.	The Silmarillion	- J R R Tolkien
+238.	Roots	- Alex Haley
+239.	Little House on the Prairie	- Laura Ingalls Wilder
+240.	Native Son	- Richard Wright
+241.	Stuart Little	- E B White
+242.	Cross Fire	- James Patterson
+243.	The Power and the Glory	- Graham Greene
+244.	A Clockwork Orange	- Anthony Burgess
+245.	The Phantom of the Opera	- Gaston Leroux
+246.	The Martian Chronicles	- Ray Bradbury
+247.	The Road	- Cormac McCarthy
+248.	The Way of All Flesh	- Samuel Butler
+249.	Diary of a Wimpy Kid: The Long Haul	- Jeff Kinney
+250.	Villette	- Charlotte Brontë
+251.	The Curious Incident of the Dog In the Night- Time	- Mark Haddon
+252.	The Mysterious Island	- Jules Verne
+253.	Song of Solomon	- Toni Morrison
+254.	Nana	- Émile Zola
+255.	Quo Vadis	- Henryk Sienkiewicz
+256.	Main Street	- Sinclair Lewis
+257.	Matilda	- Roald Dahl
+258.	Lolita	- Vladimir Vladimirovich Nabokov
+259.	Paper Towns	- John Green
+260.	Sounder	William - H Armstrong
+261.	Are You There God? It's Me, Margaret	- Judy Blume
+262.	The Notebook	- Nicholas Sparks
+263.	From the Mixed- Up Files of Mrs Basil E Frankweiler	- E L Konigsburg
+264.	Atlas Shrugged	- Ayn Rand
+265.	The Fountainhead	- Ayn Rand
+266.	Number the Stars	- Lois Lowry
+267.	The Firm	- John Grisham
+268.	Swann's Way	- Marcel Proust
+269.	Ender's Game	- Orson Scott Card
+270.	The Name of the Rose	- Umberto Eco
+271.	A Time to Kill	- John Grisham
+272.	Water for Elephants	- Sara Gruen
+273.	The Time Machine	- H G Wells
+274.	Eragon	- Christopher Paolini
+275.	The Hitchhiker's Guide to the Galaxy	- Douglas Adams
+276.	Buddenbrooks	- Thomas Mann
+277.	A Thousand Splendid Suns	- Khaled Hosseini
+278.	The Witch of Blackbird Pond	- Elizabeth George Speare
+279.	And Then There Were None	- Agatha Christie
+280.	A Separate Peace	- John Knowles
+281.	Breaking Dawn	- Stephenie Meyer
+282.	As I Lay Dying	- William Faulkner
+283.	The Girl Who Played With Fire	- Stieg Larsson
+284.	Where the Red Fern Grows	- Wilson Rawls
+285.	Le Morte D'Arthur	- Thomas Malory
+286.	Mockingjay	- Suzanne Collins
+287.	The Pillars of the Earth	- Ken Follett
+288.	Persian Letters	- Montesquieu
+289.	The Client	- John Grisham
+290.	Sula	- Toni Morrison
+291.	Tales of a Fourth Grade Nothing	- Judy Blume
+292.	The Merry Adventures of Robin Hood of Great Renown In Nottinghamshire	- Howard Pyle
+293.	Tortilla Flat	- John Steinbeck
+294.	Look Homeward, Angel	- Thomas Wolfe
+295.	The Mystery of Edwin Drood	- Charles Dickens
+296.	Brideshead Revisited	- Evelyn Waugh
+297.	The Pelican Brief	- John Grisham
+298.	Atonement	- Ian McEwan
+299.	Washington Square	- Henry James
+300.	Like Water for Chocolate	- Laura Esquivel
+301.	The Golden Compass	- Philip Pullman
+302.	The Secret Life of Bees	- Sue Monk Kidd
+303.	The Fault In Our Stars	- John Green
+304.	Nostromo	- Joseph Conrad
+305.	Finnegans Wake	- James Joyce
+306.	The Brethren	- John Grisham
+307.	Coraline	- Neil Gaiman
+308.	Heart of Darkness	- Joseph Conrad
+309.	On the Banks of Plum Creek	- Laura Ingalls Wilder
+310.	Rebecca of Sunnybrook Farm	- Kate Douglas Smith Wiggin
+311.	The Ambassadors	- Henry James
+312.	The Secret Agent	- Joseph Conrad
+313.	The House on Mango Street	- Sandra Cisneros
+314.	Go Tell It on the Mountain	- James Baldwin
+315.	The Testament	- John Grisham
+316.	The Clan of the Cave Bear	- Jean M Auel
+317.	Cranford	- Elizabeth Cleghorn Gaskell
+318.	Because of Winn- Dixie	- Kate DiCamillo
+319.	My Side of the Mountain	- Jean Craighead George
+320.	The Runaway Jury	- John Grisham
+321.	The Mouse and the Motorcycle	- Beverly Cleary
+322.	The Lost Symbol	- Dan Brown
+323.	The Forsyte Saga	- John Galsworthy
+324.	Gone Girl	- Gillian Flynn
+325.	The Lightning Thief	- Rick Riordan
+326.	The Last Days of Pompeii	- Edward Bulwer Lytton
+327.	The Reader	- Bernhard Schlink
+328.	Caddie Woodlawn	Carol - Ryrie Brink
+329.	The Tale of Despereaux	- Kate DiCamillo
+330.	The Girl Who Kicked the Hornet's Nest	- Stieg Larsson
+331.	Dear Mr Henshaw	- Beverly Cleary
+332.	The Killer Angels	- Michael Shaara
+333.	Chronicle of a Death Foretold	- Gabriel García Márquez
+334.	The Five People You Meet In Heaven	- Mitch Albom
+335.	The Master and Margarita	- Mikhail Bulgakov
+336.	Winesburg, Ohio	- Sherwood Anderson
+337.	"P" Is for Peril	- Sue Grafton
+338.	My Sister's Keeper	- Jodi Picoult
+339.	Barnaby Rudge	- Charles Dickens
+340.	Howards End	- E M Forster
+341.	The Broker	- John Grisham
+342.	The Camel Club	- David Baldacci
+343.	The Rainbow	- D H Lawrence
+344.	The Man In the Iron Mask	- Alexandre Dumas
+345.	Mary Poppins	- P L Travers
+346.	Artemis Fowl	- Eoin Colfer
+347.	Dear John	- Nicholas Sparks
+348.	Cold Mountain	- Charles Frazier
+349.	Flowers for Algernon	- Daniel Keyes
+350.	The Dark Is Rising	- Susan Cooper
+351.	Resurrection	- Leo Tolstoy
+352.	Fearless Fourteen	- Janet Evanovich
+353.	A Sentimental Journey Through France and Italy	- Laurence Sterne
+354.	The King of Torts	- John Grisham
+355.	The Graveyard Book	- Neil Gaiman
+356.	The Quiet American	- Graham Greene
+357.	The Chamber	- John Grisham
+358.	The English Patient	- Michael Ondaatje
+359.	Snow Falling on Cedars	- David Guterson
+360.	The Long Winter	- Laura Ingalls Wilder
+361.	Sarah, Plain and Tall	- Patricia MacLachlan
+362.	Cross Country	- James Patterson
+363.	The Spy Who Came In from the Cold	- John Le Carré
+364.	A Game of Thrones	- George R R Martin
+365.	The Thorn Birds	- Colleen McCullough
+366.	Old Yeller	- Fred Gipson
+367.	Ramona Quimby, Age 8	- Beverly Cleary
+368.	Death In Venice	- Thomas Mann
+369.	By the Shores of Silver Lake	- Laura Ingalls Wilder
+370.	Inferno	- Dan Brown
+371.	Schindler's List	- Thomas Keneally
+372.	Jonathan Livingston Seagull	- Richard Bach
+373.	The Stand	- Stephen King
+374.	The Last Juror	- John Grisham
+375.	Shiloh	Phyllis - Reynolds Naylor
+376.	Girl With a Pearl Earring	- Tracy Chevalier
+377.	The Murder of Roger Ackroyd	- Agatha Christie
+378.	It	- Stephen King
+379.	The Rainmaker	- John Grisham
+380.	The Poisonwood Bible	- Barbara Kingsolver
+381.	The Indian in the Cupboard	- Lynne Reid Banks
+382.	The Maltese Falcon	- Dashiell Hammett
+383.	The Warden	- Anthony Trollope
+384.	The Summons	- John Grisham
+385.	Encyclopedia Brown: Boy Detective	- Donald J Sobol
+386.	The Time Traveler's Wife	- Audrey Niffenegger
+387.	The Incredible Journey	- Sheila Burnford
+388.	Daughter of Fortune	- Isabel Allende
+389.	Shirley	- Charlotte Brontë
+390.	Bud, Not Buddy	- Christopher Paul Curtis
+391.	The Horse Whisperer	- Nicholas Evans
+392.	The Street Lawyer	- John Grisham
+393.	Nausea	- Jean- Paul Sartre
+394.	To Have and Have Not	- Ernest Hemingway
+395.	The Bridges of Madison County	- Robert James Waller
+396.	Anne of the Island	- L M Montgomery
+397.	The Winter of Our Discontent	- John Steinbeck
+398.	The Shining	- Stephen King
+399.	The Tenant of Wildfell Hall	- Anne Brontë
+400.	First Family	- David Baldacci
+401.	The Partner	- John Grisham
+402.	The Girl on the Train	- Paula Hawkins
+403.	The Black Arrow: A Tale of the Two Roses	- Robert Louis Stevenson
+404.	The Rise of Silas Lapham	- William Dea Howells
+405.	The Choice	- Nicholas Sparks
+406.	The Virginian: A Horseman of the Plains	- Owen Wister
+407.	A Walk to Remember	- Nicholas Sparks
+408.	The Maze Runner	- James Dashner
+409.	The Westing Game	- Ellen Raskin
+410.	Misty of Chincoteague	- Marguerite Henry
+411.	Diary of a Wimpy Kid: The Last Straw	- Jeff Kinney
+412.	King Solomon's Mines	- H Rider Haggard
+413.	The Princess of Cleves	- Madame de (Marie- Madeleine Pioche de La Vergne) La Fayett
+414.	Jacob Have I Loved	- Katherine Paterson
+415.	Mrs Frisby and the Rats of NIMH	- Robert C O'Brien
+416.	Misery	- Stephen King
+417.	The Cider House Rules	- John Irving
+418.	King of the Wind	- Marguerite Henry
+419.	The Once and Future King	- T H White
+420.	The Witches	- Roald Dahl
+421.	The Subtle Knife	- Philip Pullman
+422.	When You Reach Me	- Rebecca Stead
+423.	Carrie	- Stephen King
+424.	The Moon and Sixpence	- W Somerset Maugham
+425.	The Higher Power of Lucky	- Susan Patron
+426.	Looking Backward, 2000- 1887	- Edward Bellamy
+427.	The Wings of the Dove	- Henry James
+428.	The Summer of the Swans	- Betsy Cromer Byars
+429.	Dangerous Liaisons	- Choderlos de Laclos
+430.	Jurassic Park	- Michael Crichton
+431.	The Absolutely True Diary of a Part time Indian	- Sherman Alexie
+432.	The Grey King	- Susan Cooper
+433.	The Leopard	- Giuseppe Tomasi di Lampedusa
+434.	The Mammoth Hunters	- Jean M Auel
+435.	The Trumpet of the Swan	- E B White
+436.	The Lucky One	- Nicholas Sparks
+437.	These Happy Golden Years	- Laura Ingalls Wilder
+438.	Arrowsmith	- Sinclair Lewis
+439.	Julie of the Wolves	- Jean Craighead George
+440.	The Screwtape Letters	- C S Lewis
+441.	The Fall	- Albert Camus
+442.	The No 1 Ladies' Detective Agency	- Alexander McCall Smith
+443.	Worst Case	- James Patterson
+444.	Lost Horizon	- James Hilton
+445.	The Gunslinger	- Stephen King
+446.	The Slave Dancer	- Paula Fox
+447.	Harry Potter and the Half- Blood Prince	- J K Rowling
+448.	Inkheart	- Cornelia Funke
+449.	Ramona and her Father	- Beverly Cleary
+450.	Inkspell	- Cornelia Funke
+451.	Ramona the Pest	- Beverly Cleary
+452.	Walk Two Moons	- Sharon Creech
+453.	Miss Peregrine's Home for Peculiar Children	- Ransom Riggs
+454.	The Chocolate War	- Robert Cormier
+455.	Sophie's Choice	William - Styron
+456.	Looking for Alaska	- John Green
+457.	Breakfast at Tiffany's	- Truman Capote
+458.	The Razor's Edge	- W Somerset Maugham
+459.	Dreamcatcher	- Stephen King
+460.	Orlando	- Virginia Woolf
+461.	The Things they Carried	- Tim O'Brien
+462.	Little Town on the Prairie	- Laura Ingalls Wilder
+463.	Nights in Rodanthe	- Nicholas Sparks
+464.	The Amber Spyglass	- Philip Pullman
+465.	The Miraculous Journey of Edward Tulane	- Kate DiCamillo
+466.	Flatland	- Edwin A Abbott
+467.	Diary of a Wimpy Kid	- Jeff Kinney
+468.	The Memory Keeper's Daughter	- Kim Edwards
+469.	The Wedding	- Nicholas Sparks
+470.	Fried Green Tomatoes at the Whistle- Stop Cafe	- Fannie Flagg
+471.	The Cricket in Times Square	- George Selden
+472.	The Phantom Tollbooth	- Norton Juster
+473.	Rob Roy	- Walter Scott
+474.	The Death of Ivan Ilych	- Leo Tolstoy
+475.	Alex Cross's Trial	- James Patterson
+476.	Kenilworth	- Walter Scott
+477.	The Life and Opinions of Tristram Shandy	- Laurence Sterne
+478.	The Remains of theDay	- Kazuo Ishiguro
+479.	M C Higgins, - The Great	Virginia Hamilton
+480.	Call It Courage	- Armstrong Sperry
+481.	Go Set a Watchman	- Harper Lee
+482.	Bleachers	- John Grisham
+483.	Elijah of Buxton	- Christopher Paul Curtis
+484.	Swimsuit	- James Patterson
+485.	Cat's Cradle	- Kurt Vonnegut
+486.	The Caine Mutiny	- Herman Wouk
+487.	The Heart of the Matter	- Graham Greene
+488.	Harriet, the Spy	- Louise Fitzhugh
+489.	Darkness at Noon	- Arthur Koestler
+490.	A Prayer for Owen Meany	- John Irving
+491.	The God of Small Things	- Arundhati Roy
+492.	The Associate	- John Grisham
+493.	The Shack	- William P Young
+494.	The Naked and the Dead	- Norman Mailer
+495.	The Sea of Monsters	- Rick Riordan
+496.	Stranger in a Strange Land	- Robert A Heinlein
+497.	Vision in White	- Nora Roberts
+498.	The Whipping Boy	- Sid Fleischman
+499.	Room	- Emma Donoghue
+500.	Deception Point	- Dan Brown
+501.
