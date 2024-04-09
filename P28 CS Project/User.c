@@ -140,6 +140,6 @@ void userportal()
 		genderpage();
 		nameandpassword();
 	}
-	else
+	else if (enterscreen == '1')
 		checklogin();
 }

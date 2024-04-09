@@ -48,9 +48,6 @@
     <ClCompile Include="Cursorposition.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="includeheaders.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="Loadingscreen.c">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -63,12 +60,24 @@
     <ClCompile Include="Library.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Volleyball.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BotDefense.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\DnD Map Editor\DnD Map Editor\DnD Map Editor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="colors.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="altscreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="includeheaders.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

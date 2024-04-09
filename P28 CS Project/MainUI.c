@@ -64,6 +64,9 @@ void mainscreen()
 	printf("%s\033[44C7:%sComplaints%s\n", magenta, cyan, white);
 	printf("%s\033[44C8:%sWeekly Quiz%s\n", magenta, cyan, white);
 	printf("%s\033[44C9:%sTic Tac Toe%s\n", magenta, cyan, white);
+	printf("%s\033[44CA:%sVolleyball%s\n", magenta, cyan, white);
+	printf("%s\033[44CB:%sBot Defense%s\n", magenta, cyan, white);
+	printf("%s\033[44CC:%sDungeons And Dragons Map Editor%s\n", magenta, cyan, white);
 	printf("%s\033[44C-----------------------\n\n%s\033[44C%s", magenta, white, save);
 
 	//prints date
@@ -80,7 +83,7 @@ void mainscreen()
 			printf("%sEnter a valid choice(1-9):%s", brightred, white);
 		scanf_s("%c", &choice);
 		anger += 1;
-	} while (choice < 49 || choice>57);
+	} while (choice < 49 || choice>57 && choice != 65&&choice!=66&&choice!=67);
 	
 	switch (choice)
 	{
@@ -96,13 +99,21 @@ void mainscreen()
 		loadingscreen(minutes);
 		tictactoe();
 		break;
+	case 65:
+		game();
+		break;
+	case 66:
+		game2();
+		break;
+	case 67:dnd();
+		break;
 	}
 }
 
 
 int main(void)
 {
-	userportal();
+
 	loadingscreen(minutes);
 	mainscreen();
 }

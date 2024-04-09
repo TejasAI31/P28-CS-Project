@@ -104,10 +104,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)_CRT_SECURE_NO_WARNINGS</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>"C:\raylib\include"</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>"C:\raylib\lib"</AdditionalLibraryDirectories>
+      <AdditionalDependencies>winmm.lib;raylib.lib;$(CoreLibraryDependencies);%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -127,10 +130,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\DnD Map Editor\DnD Map Editor\DnD Map Editor.c" />
     <ClCompile Include="Clubs.c" />
     <ClCompile Include="Complaints.c" />
     <ClCompile Include="Contacts.c" />
     <ClCompile Include="Cursorposition.h" />
+    <ClCompile Include="BotDefense.c" />
+    <ClCompile Include="Volleyball.c" />
     <ClCompile Include="Hospital.c" />
     <ClCompile Include="Library.c" />
     <ClCompile Include="Loadingscreen.c" />
