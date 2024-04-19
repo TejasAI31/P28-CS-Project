@@ -4,6 +4,7 @@
 #include <math.h>
 
 
+
 const float ballgravity = 4;
 const float playergravity = 8;
 const float restitution = 0.8f;
@@ -174,6 +175,41 @@ void player2movement()
 	}
 }
 
+
+/*void player2movement(char inp)
+{
+	printf("%c\n", inp);
+	if (IsKeyDown(KEY_RIGHT) && IsKeyPressed(KEY_RIGHT_CONTROL) && player2.x <= 1580 && p2jumps >= 1)
+	{
+		vplayer2 -= 6;
+		player2.x += 2;
+		p2jumps--;
+	}
+	else if (IsKeyDown(KEY_LEFT) && IsKeyPressed(KEY_RIGHT_CONTROL) && player2.x >= 810 && p2jumps >= 1)
+	{
+		vplayer2 -= 6;
+		player2.x -= 2;
+		p2jumps--;
+	}
+	else if (IsKeyDown(KEY_RIGHT) && IsKeyDown(KEY_RIGHT_SHIFT) && player2.x <= 1580)player2.x += 4;
+	else if (IsKeyDown(KEY_LEFT) && IsKeyDown(KEY_RIGHT_SHIFT) && player2.x >= 810)player2.x -= 4;
+	else if (inp=='d' && player2.x <= 1580)player2.x += 2;
+	if (inp=='a'&& player2.x >= 810)player2.x -= 2;
+	else if (IsKeyPressed(KEY_RIGHT_CONTROL) && p2jumps >= 1)
+	{
+		if (vplayer2 > 2)
+			vplayer2 = -4;
+		else if (vplayer2 < 0)
+			vplayer2 = -4;
+		else if (vplayer2 <= 2 && vplayer2 > 0)
+			vplayer2 -= 4;
+		else
+			vplayer2 -= 6;
+		p2jumps--;
+	}
+	
+}*/
+
 //movement check
 void playermovement()
 {
@@ -206,6 +242,7 @@ void playermovement()
 		p1jumps--;
 	}
 }
+
 
 
 void player2bounce()
@@ -397,6 +434,7 @@ void game()
 	InitWindow(1600, 800, "Volleyball");
 	SetTargetFPS(144);
 	settexture();
+	aitrain();
 
 
 	//initiates cloud x positions
@@ -451,6 +489,7 @@ void game()
 
 		//manages w,a,s,d, movements
 		playermovement();
+		
 		player2movement();
 
 		//additional bounce

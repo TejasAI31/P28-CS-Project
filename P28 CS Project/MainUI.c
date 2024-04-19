@@ -91,6 +91,10 @@ void mainscreen()
 		updatetime();
 		showtimings(day, currenttime, hours, minutes);
 		break;
+	case 53:
+		updatetime();
+		swb();
+		break;
 	case 50:
 		mainlibrary();
 		break;
@@ -113,7 +117,5 @@ void mainscreen()
 
 int main(void)
 {
-
-	loadingscreen(minutes);
 	mainscreen();
 }

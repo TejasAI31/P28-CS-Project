@@ -147,6 +147,7 @@
     <ClCompile Include="Time_Table.c" />
     <ClCompile Include="Timings.c" />
     <ClCompile Include="User.c" />
+    <ClCompile Include="VolleyballAI.c" />
     <ClCompile Include="Weekly_Quiz.c" />
   </ItemGroup>
   <ItemGroup>
