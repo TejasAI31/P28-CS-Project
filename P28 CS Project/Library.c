@@ -69,7 +69,7 @@ void searchbook()
 					fscanf(searchfile, "%s", enhancedbooksearcher);
 					if (enhancedbooksearcher[1] == '.' || enhancedbooksearcher[2] == '.' || enhancedbooksearcher[3] == '.')
 						break;
-					if (enhancedbooksearcher[0] == '-')
+					if (enhancedbooksearcher[0] == '-') 
 					{
 						printf(" %s", magenta);
 					}
@@ -179,4 +179,5 @@ void mainlibrary()
 		counter++;
 
 	}
+	mainlibrary();
 }

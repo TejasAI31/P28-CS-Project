@@ -1,7 +1,7 @@
 ﻿#include "includeheaders.h"
 
-char choice, dateandmonth[11], day[4], currenttime[7],hours[4], minutes[4];
-int check;
+char dateandmonth[11], day[4], currenttime[7],hours[4], minutes[4];
+
 
 //updates date and time
 void updatetime()
@@ -27,6 +27,7 @@ void updatetime()
 //shows the main hub
 void mainscreen()
 {
+	char choice;
 	system("cls");
 	updatetime();
 	//mainscreen
@@ -55,61 +56,57 @@ void mainscreen()
 	printf("%s\033[45C----------------------\n%s", brightyellow,white);
 	printf("\n%s\033[51CCatalogue:%s\n", cyan, white);
 	printf("%s\n\033[44C------------------------\n%s", magenta, white);
-	printf("%s\033[44C1:%sTimetable%s\n", magenta, cyan, white);
-	printf("%s\033[44C2:%sLibrary%s\n", magenta, cyan, white);
-	printf("%s\033[44C3:%sClubs%s\n", magenta, cyan, white);
-	printf("%s\033[44C4:%sTimings%s\n", magenta, cyan, white);
-	printf("%s\033[44C5:%sSWB%s\n", magenta, cyan, white);
-	printf("%s\033[44C6:%sContacts%s\n", magenta, cyan, white);
-	printf("%s\033[44C7:%sComplaints%s\n", magenta, cyan, white);
-	printf("%s\033[44C8:%sWeekly Quiz%s\n", magenta, cyan, white);
-	printf("%s\033[44C9:%sTic Tac Toe%s\n", magenta, cyan, white);
-	printf("%s\033[44CA:%sVolleyball%s\n", magenta, cyan, white);
-	printf("%s\033[44CB:%sBot Defense%s\n", magenta, cyan, white);
-	printf("%s\033[44CC:%sDungeons And Dragons Map Editor%s\n", magenta, cyan, white);
+	printf("%s\033[44C1:%sLibrary%s\n", magenta, cyan, white);
+	printf("%s\033[44C2:%sTimings%s\n", magenta, cyan, white);
+	printf("%s\033[44C3:%sSWB%s\n", magenta, cyan, white);
+	printf("%s\033[44C-----------------------%s", magenta, white);
+	printf("\n\n\n\n%s\033[51CMinigames:%s\n\n", cyan, white);
+	printf("%s\033[44C-----------------------%s\n", magenta, white);
+	printf("%s\033[44C4:%sTic Tac Toe%s\n", magenta, cyan, white);
+	printf("%s\033[44C5:%sVolleyball%s\n", magenta, cyan, white);
+	printf("%s\033[44C6:%sBot Defense%s\n", magenta, cyan, white);
 	printf("%s\033[44C-----------------------\n\n%s\033[44C%s", magenta, white, save);
 
 	//prints date
 	printf("\033[6;85H--%s%s%s--", brightgreen, dateandmonth, white);
-
+	
 
 	//checks for valid input and turns red if wrong
 	int anger = 0;
 	do {
 		printf("%s\033[0K", reset);
 		if (anger == 0)
-			printf("%sEnter a valid choice(1-9):%s", brightgreen, white);
+			printf("%sEnter a valid choice(1-6):%s", brightgreen, white);
 		else
-			printf("%sEnter a valid choice(1-9):%s", brightred, white);
-		scanf_s("%c", &choice);
-		anger += 1;
-	} while (choice < 49 || choice>57 && choice != 65&&choice!=66&&choice!=67);
+			printf("%sEnter a valid choice(1-6):%s", brightred, white);
+		choice = getchar();
+		anger = 1;
+	} while (choice < 49 || choice>54);
+	anger =0;
 	
 	switch (choice)
 	{
-	case 52:
+	case 50:
 		updatetime();
 		showtimings(day, currenttime, hours, minutes);
 		break;
-	case 53:
+	case 51:
 		updatetime();
 		swb();
 		break;
-	case 50:
+	case 49:
 		mainlibrary();
 		break;
-	case 57:
+	case 52:
 		updatetime();
 		loadingscreen(minutes);
 		tictactoe();
 		break;
-	case 65:
+	case 53:
 		game();
 		break;
-	case 66:
+	case 54:
 		game2();
-		break;
-	case 67:dnd();
 		break;
 	}
 }
@@ -117,5 +114,6 @@ void mainscreen()
 
 int main(void)
 {
+
 	mainscreen();
 }

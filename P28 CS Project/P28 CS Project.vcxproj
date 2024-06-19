@@ -130,7 +130,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\DnD Map Editor\DnD Map Editor\DnD Map Editor.c" />
     <ClCompile Include="Clubs.c" />
     <ClCompile Include="Complaints.c" />
     <ClCompile Include="Contacts.c" />

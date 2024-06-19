@@ -66,9 +66,6 @@
     <ClCompile Include="BotDefense.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\DnD Map Editor\DnD Map Editor\DnD Map Editor.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="VolleyballAI.c">
       <Filter>Source Files</Filter>
     </ClCompile>

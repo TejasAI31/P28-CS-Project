@@ -1109,4 +1109,6 @@ void game2()
 		//End the drawing
 			EndDrawing();
 	}
+	CloseWindow();
+	mainscreen();
 }
