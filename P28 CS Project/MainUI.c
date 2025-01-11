@@ -30,6 +30,7 @@ void mainscreen()
 	char choice;
 	system("cls");
 	updatetime();
+
 	//mainscreen
 	for (int y = 1; y <= 2; y++)
 	{
@@ -114,6 +115,6 @@ void mainscreen()
 
 int main(void)
 {
-
+	userportal();
 	mainscreen();
 }
