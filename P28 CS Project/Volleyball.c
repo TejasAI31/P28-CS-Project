@@ -17,13 +17,13 @@ float uplayer2 = 0;
 float vplayer2 = 0;
 float x = 0;
 
-int player1points=0;
+int player1points = 0;
 int player2points = 0;
 int chain = 0;
 int p1jumps = 2;
 int p2jumps = 2;
 int playertexture = 0;
-int ballhitforcex=4;
+int ballhitforcex = 4;
 int ballhitforcey = 3;
 int isgloveworking = 0;
 
@@ -73,7 +73,7 @@ void checkpowerupactivation()
 
 void showpoints()
 {
-	DrawText(TextFormat("%d",player1points), 710,695 , 80, GREEN);
+	DrawText(TextFormat("%d", player1points), 710, 695, 80, GREEN);
 	DrawText(TextFormat("%d", player2points), 1480, 695, 80, GREEN);
 	if (chain >= 1)
 		DrawText(TextFormat("Chain: %d", chain), 750, 100, 30, RED);
@@ -113,11 +113,11 @@ void player2hit()
 		if (player2.y <= 500)
 		{
 			vball = -ballhitforcey;
-			x = -ballhitforcex-2;
+			x = -ballhitforcex - 2;
 		}
 		else if (player2.y >= 500)
 		{
-			vball = -ballhitforcey*2;
+			vball = -ballhitforcey * 2;
 			x = -ballhitforcex;
 		}
 		chain++;
@@ -127,16 +127,16 @@ void player2hit()
 
 void playerhit()
 {
-	if (IsKeyPressed(KEY_ENTER) && (player.x + 10) - ball.x <= 40 && ball.x - (player.x + 10) <= 40 && player.y - ball.y <= 40&&ball.y-player.y<=55)
+	if (IsKeyPressed(KEY_ENTER) && (player.x + 10) - ball.x <= 40 && ball.x - (player.x + 10) <= 40 && player.y - ball.y <= 40 && ball.y - player.y <= 55)
 	{
 		if (player.y <= 500)
 		{
 			vball = -ballhitforcey;
-			x = ballhitforcex+2;
+			x = ballhitforcex + 2;
 		}
 		else if (player.y >= 500)
 		{
-			vball = -ballhitforcey*2;
+			vball = -ballhitforcey * 2;
 			x = ballhitforcex;
 		}
 		chain++;
@@ -145,23 +145,23 @@ void playerhit()
 
 void player2movement()
 {
-	if (IsKeyDown(KEY_RIGHT) && IsKeyPressed(KEY_RIGHT_CONTROL)&&player2.x<=1580&&p2jumps>=1)
+	if (IsKeyDown(KEY_RIGHT) && IsKeyPressed(KEY_RIGHT_CONTROL) && player2.x <= 1580 && p2jumps >= 1)
 	{
 		vplayer2 -= 6;
 		player2.x += 2;
 		p2jumps--;
 	}
-	else if (IsKeyDown(KEY_LEFT) && IsKeyPressed(KEY_RIGHT_CONTROL)&&player2.x>=810&&p2jumps>=1)
+	else if (IsKeyDown(KEY_LEFT) && IsKeyPressed(KEY_RIGHT_CONTROL) && player2.x >= 810 && p2jumps >= 1)
 	{
 		vplayer2 -= 6;
 		player2.x -= 2;
 		p2jumps--;
 	}
 	else if (IsKeyDown(KEY_RIGHT) && IsKeyDown(KEY_RIGHT_SHIFT) && player2.x <= 1580)player2.x += 4;
-	else if (IsKeyDown(KEY_LEFT) && IsKeyDown(KEY_RIGHT_SHIFT)&&player2.x >= 810)player2.x -= 4;
+	else if (IsKeyDown(KEY_LEFT) && IsKeyDown(KEY_RIGHT_SHIFT) && player2.x >= 810)player2.x -= 4;
 	else if (IsKeyDown(KEY_RIGHT) && player2.x <= 1580)player2.x += 2;
-	else if (IsKeyDown(KEY_LEFT)&&player2.x >= 810)player2.x -= 2;
-	else if (IsKeyPressed(KEY_RIGHT_CONTROL)&&p2jumps>=1)
+	else if (IsKeyDown(KEY_LEFT) && player2.x >= 810)player2.x -= 2;
+	else if (IsKeyPressed(KEY_RIGHT_CONTROL) && p2jumps >= 1)
 	{
 		if (vplayer2 > 2)
 			vplayer2 = -4;
@@ -207,35 +207,35 @@ void player2movement()
 			vplayer2 -= 6;
 		p2jumps--;
 	}
-	
+
 }*/
 
 //movement check
 void playermovement()
 {
-	if (IsKeyDown(KEY_D) && IsKeyPressed(KEY_SPACE)&&player.x<=770&&p1jumps>=1)
+	if (IsKeyDown(KEY_D) && IsKeyPressed(KEY_SPACE) && player.x <= 770 && p1jumps >= 1)
 	{
-			vplayer1 -= 6;
-			player.x += 2;
-			p1jumps--;
+		vplayer1 -= 6;
+		player.x += 2;
+		p1jumps--;
 	}
-	else if (IsKeyDown(KEY_A) && IsKeyPressed(KEY_SPACE)&&player.x>=0&&p1jumps>=1)
+	else if (IsKeyDown(KEY_A) && IsKeyPressed(KEY_SPACE) && player.x >= 0 && p1jumps >= 1)
 	{
-			vplayer1 -= 6;
-			player.x -= 2;
-			p1jumps--;
+		vplayer1 -= 6;
+		player.x -= 2;
+		p1jumps--;
 	}
 	else if (IsKeyDown(KEY_D) && IsKeyDown(KEY_LEFT_SHIFT) && player.x <= 770)player.x += 4;
 	else if (IsKeyDown(KEY_A) && IsKeyDown(KEY_LEFT_SHIFT) && player.x >= 0)player.x -= 4;
 	else if (IsKeyDown(KEY_D) && player.x <= 770)player.x += 2;
 	else if (IsKeyDown(KEY_A) && player.x >= 0)player.x -= 2;
-	else if (IsKeyPressed(KEY_SPACE)&&p1jumps>=1)
+	else if (IsKeyPressed(KEY_SPACE) && p1jumps >= 1)
 	{
 		if (vplayer1 > 2)
 			vplayer1 = -4;
 		else if (vplayer1 < 0)
 			vplayer1 = -4;
-		else if (vplayer1 <= 2&&vplayer1>0)
+		else if (vplayer1 <= 2 && vplayer1 > 0)
 			vplayer1 -= 4;
 		else
 			vplayer1 -= 6;
@@ -252,8 +252,8 @@ void player2bounce()
 		vplayer2 = 0;
 		p2jumps = 2;
 	}
-	if(player2.y>10)
-	player2.y += vplayer2;
+	if (player2.y > 10)
+		player2.y += vplayer2;
 }
 
 
@@ -265,7 +265,7 @@ void playerybounce()
 		p1jumps = 2;
 	}
 	if (player.y < 10)
-		vplayer1=1;
+		vplayer1 = 1;
 	player.y += vplayer1;
 }
 
@@ -274,7 +274,7 @@ void playerybounce()
 
 void groundfriction()
 {
-	if (ball.y >= 600&&x!=0)
+	if (ball.y >= 600 && x != 0)
 	{
 		if (x >= 0)
 			x -= 0.2f;
@@ -291,14 +291,14 @@ void ballxmovement()
 
 void addbounce(int extrabounce)
 {
-	if (IsKeyPressed(KEY_W)&&(player.x+10)-ball.x<=40&&ball.x-(player.x+10)<=40&&player.y-ball.y<=40&&ball.y-player.y<=55)
+	if (IsKeyPressed(KEY_W) && (player.x + 10) - ball.x <= 40 && ball.x - (player.x + 10) <= 40 && player.y - ball.y <= 40 && ball.y - player.y <= 55)
 	{
 		x = 0;
-		if (ball.y<=400)
+		if (ball.y <= 400)
 			vball = -extrabounce;
 		else
 		{
-			vball = -4; 
+			vball = -4;
 		}
 		x = 1;
 	}
@@ -344,70 +344,70 @@ void ballybounce()
 		if (vball <= 0.2 && vball >= -0.2)
 			vball = 0;
 		else
-		vball = -(restitution * vball);
+			vball = -(restitution * vball);
 	}
 	ball.y += vball;
 }
 
 void settexture()
 {
-	Image volleyball = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//ballart.png");
+	Image volleyball = LoadImage("..//Sprites//ballart.png");
 	volleyballtexture = LoadTextureFromImage(volleyball);
 	UnloadImage(volleyball);
 
-	Image volleyballnet = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//volleyballpole.png");
+	Image volleyballnet = LoadImage("..//Sprites//volleyballpole.png");
 	volleyballnettexture = LoadTextureFromImage(volleyballnet);
 	UnloadImage(volleyballnet);
 
-	Image tree2 = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//tree2.png");
+	Image tree2 = LoadImage("..//Sprites//tree2.png");
 	tree2texture = LoadTextureFromImage(tree2);
 	UnloadImage(tree2);
 
-	Image tree = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//tree.png");
+	Image tree = LoadImage("..//Sprites//tree.png");
 	treetexture = LoadTextureFromImage(tree);
 	UnloadImage(tree);
 
-	Image platform = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//platform.png");
+	Image platform = LoadImage("..//Sprites//platform.png");
 	platformtexture = LoadTextureFromImage(platform);
 	UnloadImage(platform);
 
-	Image outer = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//outer.png");
+	Image outer = LoadImage("..//Sprites//outer.png");
 	outertexture = LoadTextureFromImage(outer);
 	UnloadImage(outer);
 
-	Image inner = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//inner.png");
+	Image inner = LoadImage("..//Sprites//inner.png");
 	innertexture = LoadTextureFromImage(inner);
 	UnloadImage(inner);
 
-	Image glove = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//gloves.png");
+	Image glove = LoadImage("..//Sprites//gloves.png");
 	glovetexture = LoadTextureFromImage(glove);
 	UnloadImage(glove);
 
-	Image sun = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//sun.png");
+	Image sun = LoadImage("..//Sprites//sun.png");
 	suntexture = LoadTextureFromImage(sun);
 	UnloadImage(sun);
 
-	Image moon = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//moon.png");
+	Image moon = LoadImage("..//Sprites//moon.png");
 	moontexture = LoadTextureFromImage(moon);
 	UnloadImage(moon);
 
-	Image bigcloud = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//bigcloud.png");
+	Image bigcloud = LoadImage("..//Sprites//bigcloud.png");
 	bigcloudtexture = LoadTextureFromImage(bigcloud);
 	UnloadImage(bigcloud);
 
-	Image smallcloud = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//smallcloud.png");
+	Image smallcloud = LoadImage("..//Sprites//smallcloud.png");
 	smallcloudtexture = LoadTextureFromImage(smallcloud);
 	UnloadImage(smallcloud);
 
-	Image emptybar = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//emptybar.png");
+	Image emptybar = LoadImage("..//Sprites//emptybar.png");
 	emptybartexture = LoadTextureFromImage(emptybar);
 	UnloadImage(emptybar);
 
-	Image fullbar = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//fullbar.png");
+	Image fullbar = LoadImage("..//Sprites//fullbar.png");
 	fullbartexture = LoadTextureFromImage(fullbar);
 	UnloadImage(fullbar);
-	
-	Image close = LoadImage("C://Users//tsm69//Desktop//Coding//c++//P28 CS Project//Sprites//close.png");
+
+	Image close = LoadImage("..//Sprites//close.png");
 	closetexture = LoadTextureFromImage(close);
 	UnloadImage(close);
 }
@@ -470,7 +470,7 @@ void game()
 
 		BeginDrawing();
 		ClearBackground(sky);
-		
+
 		//checks activation of gloves
 		checkpowerupactivation();
 
@@ -489,7 +489,7 @@ void game()
 
 		//manages w,a,s,d, movements
 		playermovement();
-		
+
 		player2movement();
 
 		//additional bounce
@@ -506,8 +506,8 @@ void game()
 
 
 		//draws ball,player and floor
-		DrawTexture(suntexture, 600+sunx, 800+suny, WHITE);
-		DrawTexture(moontexture, 600-sunx, 800 - suny, WHITE);
+		DrawTexture(suntexture, 600 + sunx, 800 + suny, WHITE);
+		DrawTexture(moontexture, 600 - sunx, 800 - suny, WHITE);
 
 
 		//draws clouds
@@ -541,10 +541,10 @@ void game()
 
 		DrawTexture(bigcloudtexture, bigcloudx, bigcloudy, WHITE);
 		if (bigcloudx >= -440)
-			bigcloudx-=0.2;
+			bigcloudx -= 0.2;
 		else
 		{
-			bigcloudy =100+rand() % 200;
+			bigcloudy = 100 + rand() % 200;
 			bigcloudx = 1600;
 		}
 
@@ -565,8 +565,8 @@ void game()
 		DrawRectangleRec(player2, RED);
 		DrawCircleLines(player.x + 10, player.y + 20, 40, YELLOW);
 		DrawCircleLines(player2.x + 10, player2.y + 20, 40, YELLOW);
-		DrawRectangleLinesEx(ball,0, WHITE);
-		DrawTexture(volleyballtexture, ball.x, ball.y,WHITE);
+		DrawRectangleLinesEx(ball, 0, WHITE);
+		DrawTexture(volleyballtexture, ball.x, ball.y, WHITE);
 		DrawRectangleRec(grass, DARKBLUE);
 		DrawRectangleRec(net, BLACK);
 		DrawTexture(volleyballnettexture, net.x, net.y, WHITE);
@@ -586,8 +586,8 @@ void game()
 		{
 			for (int x = 0; x <= 1568; x += 32)
 			{
-				if(x<64||(x>=768&&x<832)||x>=1536)
-				DrawTexture(innertexture, x, pos, WHITE);
+				if (x < 64 || (x >= 768 && x < 832) || x >= 1536)
+					DrawTexture(innertexture, x, pos, WHITE);
 			}
 			pos += 32;
 		}
@@ -609,8 +609,8 @@ void game()
 		DrawTexture(platformtexture, 520, 613, WHITE);
 		DrawTexture(platformtexture, 1040, 613, WHITE);
 		DrawTexture(platformtexture, 1560, 613, WHITE);
-		
-		
+
+
 		//shows points
 		showpoints();
 
@@ -619,12 +619,12 @@ void game()
 
 
 		//changes sky color
-		if ((int)suny % 10 == 0&&(int)suny>=-50 && (int)sunx >= 0&&(int)suny<=0)
+		if ((int)suny % 10 == 0 && (int)suny >= -50 && (int)sunx >= 0 && (int)suny <= 0)
 		{
 			sky.r += 2;
 			sky.g += 1;
 		}
-		if((int)suny%30==0&&sky.b!=255&&(int)sunx>=0&&(int)suny<=0)
+		if ((int)suny % 30 == 0 && sky.b != 255 && (int)sunx >= 0 && (int)suny <= 0)
 		{
 			sky.b += 1;
 		}
@@ -632,7 +632,7 @@ void game()
 		{
 			sky.b -= 1;
 		}
-		if ((int)suny % 10 == 0 && (int)suny >= -50 && (int)sunx <= 0&&sky.r!=0&&sky.g!=0)
+		if ((int)suny % 10 == 0 && (int)suny >= -50 && (int)sunx <= 0 && sky.r != 0 && sky.g != 0)
 		{
 			sky.r -= 2;
 			sky.g -= 1;

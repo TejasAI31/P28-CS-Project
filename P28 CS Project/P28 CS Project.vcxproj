@@ -130,24 +130,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Clubs.c" />
-    <ClCompile Include="Complaints.c" />
-    <ClCompile Include="Contacts.c" />
     <ClCompile Include="Cursorposition.h" />
     <ClCompile Include="BotDefense.c" />
     <ClCompile Include="Volleyball.c" />
-    <ClCompile Include="Hospital.c" />
     <ClCompile Include="Library.c" />
     <ClCompile Include="Loadingscreen.c" />
     <ClCompile Include="MainUI.c" />
     <ClCompile Include="NewUserData.h" />
     <ClCompile Include="SWB.c" />
     <ClCompile Include="Tic_Tac_Toe.c" />
-    <ClCompile Include="Time_Table.c" />
     <ClCompile Include="Timings.c" />
     <ClCompile Include="User.c" />
     <ClCompile Include="VolleyballAI.c" />
-    <ClCompile Include="Weekly_Quiz.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="altscreen.h" />
